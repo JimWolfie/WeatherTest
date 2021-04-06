@@ -1,0 +1,578 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 32655 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nlind/Desktop/WeatherTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51096
+Successfully changed project path to: C:/Users/nlind/Desktop/WeatherTest
+C:/Users/nlind/Desktop/WeatherTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nlind/Desktop/WeatherTest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro M2200 (ID=0x1436)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   24.21.13.9901
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002456 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.2 MB.
+System memory in use after: 188.4 MB.
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2258.
+Total: 3.512300 ms (FindLiveObjects: 0.614000 ms CreateObjectMapping: 0.166600 ms MarkObjects: 1.887800 ms  DeleteObjects: 0.842800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Non-Precipitation/Clear.asset
+  artifactKey: Guid(5e51740885cc8c14497e44041aeb303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Non-Precipitation/Clear.asset using Guid(5e51740885cc8c14497e44041aeb303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8450019432ebbe898a05dd55ef945061') in 0.038702 seconds
+  Import took 0.041844 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.1 MB.
+System memory in use after: 180.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 3.304200 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.084100 ms MarkObjects: 1.984200 ms  DeleteObjects: 0.911000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.1 MB.
+System memory in use after: 180.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 3.641700 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.233300 ms  DeleteObjects: 0.939200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.1 MB.
+System memory in use after: 180.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 4.122600 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.171900 ms MarkObjects: 2.478900 ms  DeleteObjects: 1.171300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 751.768241 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Precipitation
+  artifactKey: Guid(b3fa4c9ef74f7554c83c5c81baee67bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Precipitation using Guid(b3fa4c9ef74f7554c83c5c81baee67bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548d602e1385036b9773d5046f027516') in 0.013597 seconds
+  Import took 0.017231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.011315 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Special
+  artifactKey: Guid(1fed85027741b4047819104a7878fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Special using Guid(1fed85027741b4047819104a7878fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8200ca2fb8c5ab62b595e0bb31be8e') in 0.011068 seconds
+  Import took 0.014756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.950677 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Auroras
+  artifactKey: Guid(de0fbb3794caa4445a1c6ba568a310da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Auroras using Guid(de0fbb3794caa4445a1c6ba568a310da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1586b57b48389fa5b125d429ab117ab5') in 0.009201 seconds
+  Import took 0.013226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.620761 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Non-Precipitation
+  artifactKey: Guid(345027694c703e747a584bcec07d1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Non-Precipitation using Guid(345027694c703e747a584bcec07d1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54992248f18b13d028391af15fe6647') in 0.009020 seconds
+  Import took 0.012897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.095335 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/UniStormCharacterController.cs
+  artifactKey: Guid(7d14d692845e6bd4890cb48d680e50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/UniStormCharacterController.cs using Guid(7d14d692845e6bd4890cb48d680e50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903812136b6d48cda23cb40e7c015858') in 0.014618 seconds
+  Import took 0.018020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002301 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/UniStormCharacterController.cs
+  artifactKey: Guid(7d14d692845e6bd4890cb48d680e50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/UniStormCharacterController.cs using Guid(7d14d692845e6bd4890cb48d680e50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903812136b6d48cda23cb40e7c015858') in 0.003863 seconds
+  Import took 0.007994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.062526 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/Pause.cs
+  artifactKey: Guid(d07c8b350d4ad1347b2fa6a9316eb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/Pause.cs using Guid(d07c8b350d4ad1347b2fa6a9316eb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cfc7852939320c5cce0d1cae97ae6e') in 0.008922 seconds
+  Import took 0.013020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001257 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/Pause.cs
+  artifactKey: Guid(d07c8b350d4ad1347b2fa6a9316eb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/Pause.cs using Guid(d07c8b350d4ad1347b2fa6a9316eb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cfc7852939320c5cce0d1cae97ae6e') in 0.004135 seconds
+  Import took 0.007603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.828153 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/FPSCounter.cs
+  artifactKey: Guid(a984911de8a86cf479f4f31cd21f6b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/FPSCounter.cs using Guid(a984911de8a86cf479f4f31cd21f6b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733059f8b5cdc8397fc1690d6352f87f') in 0.008972 seconds
+  Import took 0.012647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.217307 seconds.
+  path: Assets/PostProcessing/Editor
+  artifactKey: Guid(e0e418747b892364db5c5f4451e67ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Editor using Guid(e0e418747b892364db5c5f4451e67ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd478dfefc6ba728ed9ff669ca1dc315c') in 0.011464 seconds
+  Import took 0.015289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.765713 seconds.
+  path: Assets/Packages/UniStorm Weather System/Sounds
+  artifactKey: Guid(df7a83f5d54e4d94dbc80dd24fee7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Sounds using Guid(df7a83f5d54e4d94dbc80dd24fee7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a10de7929a829421449ce067184709c') in 0.011190 seconds
+  Import took 0.014807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.847013 seconds.
+  path: Assets/Packages/UniStorm Weather System/Sounds/Weather Effects
+  artifactKey: Guid(3aad441df46e82440a008ea1be7f73b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Sounds/Weather Effects using Guid(3aad441df46e82440a008ea1be7f73b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edfd86d6a80412b8017ce8c6c55eea0') in 0.010400 seconds
+  Import took 0.014254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.752554 seconds.
+  path: Assets/Packages/UniStorm Weather System/Sounds/Birds
+  artifactKey: Guid(2f6c1f0347c007d4dab00f99dad65461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Sounds/Birds using Guid(2f6c1f0347c007d4dab00f99dad65461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb1b30e0cea947d222f2d822eaa7c3f') in 0.009051 seconds
+  Import took 0.012665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.708563 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Components/Resources/UniStorm Audio Mixer.mixer
+  artifactKey: Guid(9d233b585150a5b4b8c9199aaabcc8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Components/Resources/UniStorm Audio Mixer.mixer using Guid(9d233b585150a5b4b8c9199aaabcc8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db76ee143a0f9ce9a5cd50afa8bbcd0') in 0.025526 seconds
+  Import took 0.028711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.478345 seconds.
+  path: Assets/Packages/UniStorm Weather System/Sounds/Weather Effects/Heavy Rain 1.wav
+  artifactKey: Guid(2036a494b42043d469bb0474e4d29855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Sounds/Weather Effects/Heavy Rain 1.wav using Guid(2036a494b42043d469bb0474e4d29855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcb251d355da257c278deecd2d80e1f') in 0.141950 seconds
+  Import took 0.146205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.973843 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Precipitation/Heavy Rain.asset
+  artifactKey: Guid(bad5e6801a6223942b1fb7cd7cf611d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Precipitation/Heavy Rain.asset using Guid(bad5e6801a6223942b1fb7cd7cf611d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ec494891c0fa12a2ce596c1ec40c1') in 0.016949 seconds
+  Import took 0.021035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.185641 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab
+  artifactKey: Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab using Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874fcead371d08f7c51548a914376f53') in 0.021740 seconds
+  Import took 0.024964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029077 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab
+  artifactKey: Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab using Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874fcead371d08f7c51548a914376f53') in 0.005564 seconds
+  Import took 0.008954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_waterfall.mat
+  artifactKey: Guid(8a3664201f78847469715294ad2c1ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_waterfall.mat using Guid(8a3664201f78847469715294ad2c1ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdeeec57d9ce277996cb9a0ad6cd5d1') in 0.103060 seconds
+  Import took 0.107688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096255 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab
+  artifactKey: Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab using Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef54e2f425b80f54a61a4306b56d4bd0') in 0.005275 seconds
+  Import took 0.008897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.934427 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleLib.cs
+  artifactKey: Guid(f8550fcf5aa77894ea27473123821c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleLib.cs using Guid(f8550fcf5aa77894ea27473123821c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408c5e30d021ae770696c63f3a864673') in 0.009809 seconds
+  Import took 0.013327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.011116 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleFX.cs
+  artifactKey: Guid(5e37b6c61f752e246a02e2b1b6f7189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleFX.cs using Guid(5e37b6c61f752e246a02e2b1b6f7189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7247a7947917840e607a5e4756ed1941') in 0.009853 seconds
+  Import took 0.014280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001282 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleFX.cs
+  artifactKey: Guid(5e37b6c61f752e246a02e2b1b6f7189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleFX.cs using Guid(5e37b6c61f752e246a02e2b1b6f7189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7247a7947917840e607a5e4756ed1941') in 0.004996 seconds
+  Import took 0.009944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.498228 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5504841c7586ff344926a4558c5c4fac') in 0.013092 seconds
+  Import took 0.016391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095258 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dca115331b062d22c2a6e786e62a496') in 0.004939 seconds
+  Import took 0.008062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dca115331b062d22c2a6e786e62a496') in 0.005728 seconds
+  Import took 0.009269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.222798 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafe623a80de1d83b576927d3c1039e5') in 0.005917 seconds
+  Import took 0.009076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.249922 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c31ba3d3a08a4b403a703508773970e') in 0.009242 seconds
+  Import took 0.012317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.622826 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29379911e3acb59f658f090af843d9da') in 0.006396 seconds
+  Import took 0.010156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.401683 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499a5ab86544d2f8d02bf1a1808dee20') in 0.005194 seconds
+  Import took 0.008726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.790605 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1d340925c59a1bc0dc5e56c36601df') in 0.005494 seconds
+  Import took 0.010013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.083348 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b139fdc6937ccfcb277d5f62e9fb8de2') in 0.006268 seconds
+  Import took 0.011008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.510515 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b18368e96328ea7665dcc3f0caf9fb') in 0.005576 seconds
+  Import took 0.009152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.766522 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9531c8ddfcbd914ba3c016b2f6f71ed') in 0.007918 seconds
+  Import took 0.011118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.875874 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/buoyancyObject.prefab
+  artifactKey: Guid(ec0d1754ba936a04882bbd3e52f6ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/buoyancyObject.prefab using Guid(ec0d1754ba936a04882bbd3e52f6ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd540e9bc0e47411c923fd93fc6f9f156') in 0.010808 seconds
+  Import took 0.014758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.432200 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/causticObject.prefab
+  artifactKey: Guid(4fb366027c781e3418fdb327869ac38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/causticObject.prefab using Guid(4fb366027c781e3418fdb327869ac38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4815e8721ac92feb185ee474a00f39') in 0.011741 seconds
+  Import took 0.015401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.509282 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_fx_mist_hotspring.mat
+  artifactKey: Guid(f35f71411b76353419d885af63504141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_fx_mist_hotspring.mat using Guid(f35f71411b76353419d885af63504141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd1cb247a11ebc56c98e221ff59ba11') in 0.061813 seconds
+  Import took 0.065952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021767 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_fx_mist_hotspring.mat
+  artifactKey: Guid(f35f71411b76353419d885af63504141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_fx_mist_hotspring.mat using Guid(f35f71411b76353419d885af63504141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd1cb247a11ebc56c98e221ff59ba11') in 0.018333 seconds
+  Import took 0.022049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.5 MB.
+System memory in use after: 183.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 3.592200 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.409700 ms  DeleteObjects: 0.908900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001293 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.5 MB.
+System memory in use after: 183.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 3.983700 ms (FindLiveObjects: 0.251300 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.644900 ms  DeleteObjects: 0.976100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.5 MB.
+System memory in use after: 183.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 3.752200 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.094900 ms MarkObjects: 2.429000 ms  DeleteObjects: 0.985700 ms)
+
