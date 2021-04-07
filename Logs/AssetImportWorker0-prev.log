@@ -15,11 +15,11 @@ C:/Users/nlind/Desktop/WeatherTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50282
+51096
 Successfully changed project path to: C:/Users/nlind/Desktop/WeatherTest
 C:/Users/nlind/Desktop/WeatherTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,154 +35,58 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002611 seconds.
+Registered in 0.002456 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.353 seconds
+- Completed reload, in  1.188 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001003 seconds.
+Registered in 0.001037 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
+- Completed reload, in  1.015 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.9 MB.
-System memory in use after: 188.1 MB.
+System memory in use before: 191.2 MB.
+System memory in use after: 188.4 MB.
 
 Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2258.
-Total: 3.534500 ms (FindLiveObjects: 0.339800 ms CreateObjectMapping: 0.133500 ms MarkObjects: 2.198600 ms  DeleteObjects: 0.861200 ms)
+Total: 3.512300 ms (FindLiveObjects: 0.614000 ms CreateObjectMapping: 0.166600 ms MarkObjects: 1.887800 ms  DeleteObjects: 0.842800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Easy Character Movement/Examples
-  artifactKey: Guid(595dd62a4418c7148a50c44d110f74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples using Guid(595dd62a4418c7148a50c44d110f74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0ed54e86ea13b420781587bb9246f3') in 0.010537 seconds
-  Import took 0.014055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Easy Character Movement/Examples/Prefabs
-  artifactKey: Guid(85875479350e54d4abe49905fe9c0809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Prefabs using Guid(85875479350e54d4abe49905fe9c0809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585caba44367254c623bbe9f7b01ddd5') in 0.010101 seconds
-  Import took 0.014377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Easy Character Movement/Physic Materials
-  artifactKey: Guid(00c4468bdbe20ef4c910497d58b815e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Physic Materials using Guid(00c4468bdbe20ef4c910497d58b815e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e8428ec0a49d5a28df443d281f0de2') in 0.010325 seconds
-  Import took 0.013515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.594783 seconds.
-  path: Assets/Easy Character Movement/Examples/Models
-  artifactKey: Guid(a536300fb7e1b3040b9222167cb7a629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Models using Guid(a536300fb7e1b3040b9222167cb7a629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4236f94cfd81316d4ad1bb5cc7338043') in 0.008411 seconds
-  Import took 0.012715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.213841 seconds.
-  path: Assets/Easy Character Movement/Examples/Animation
-  artifactKey: Guid(edb4ec2a6a4456a4a8d36820f36e7267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Animation using Guid(edb4ec2a6a4456a4a8d36820f36e7267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895d177947c1ceacfad36a4cf6e3798a') in 0.009782 seconds
-  Import took 0.014016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Easy Character Movement/Examples/Animation
-  artifactKey: Guid(edb4ec2a6a4456a4a8d36820f36e7267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Animation using Guid(edb4ec2a6a4456a4a8d36820f36e7267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895d177947c1ceacfad36a4cf6e3798a') in 0.004296 seconds
-  Import took 0.009438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.048012 seconds.
-  path: Assets/Easy Character Movement/Examples/Scenes
-  artifactKey: Guid(63f3e63980f8c864697d1e99e57c06e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Scenes using Guid(63f3e63980f8c864697d1e99e57c06e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb56e66284202d7d00d37e31ffa59e08') in 0.011160 seconds
-  Import took 0.015304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.119121 seconds.
-  path: Assets/Easy Character Movement/Examples/Scenes/FPS HeadBob Example.unity
-  artifactKey: Guid(35572639082dbe940b10f9822d957b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Scenes/FPS HeadBob Example.unity using Guid(35572639082dbe940b10f9822d957b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d132dc90ef24f538f7e685c81d79ac3') in 0.017318 seconds
-  Import took 0.021868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.141925 seconds.
-  path: Assets/Easy Character Movement/Examples/Scenes/Demo
-  artifactKey: Guid(4532a8a1b700fbd4988296e1566e8e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Scenes/Demo using Guid(4532a8a1b700fbd4988296e1566e8e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc7e33aa297da236ebdb3832592f3a6') in 0.008418 seconds
-  Import took 0.012038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001390 seconds.
-  path: Assets/Easy Character Movement/Examples/Scenes/Demo
-  artifactKey: Guid(4532a8a1b700fbd4988296e1566e8e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Scenes/Demo using Guid(4532a8a1b700fbd4988296e1566e8e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc7e33aa297da236ebdb3832592f3a6') in 0.004453 seconds
-  Import took 0.008021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.094749 seconds.
-  path: Assets/Easy Character Movement/Examples/Animator
-  artifactKey: Guid(96b713baca0c61f42ab27b05a261d15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Animator using Guid(96b713baca0c61f42ab27b05a261d15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b9fd6a2bf9f6a8f9088fe33fea374a') in 0.009943 seconds
-  Import took 0.014086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.885683 seconds.
-  path: Assets/Easy Character Movement/Examples/Materials
-  artifactKey: Guid(8b7aac6af530e3b45ab38d06d93cf8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Materials using Guid(8b7aac6af530e3b45ab38d06d93cf8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bb29363ba12cf63a3f0af43e647378') in 0.008911 seconds
-  Import took 0.012381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.690015 seconds.
-  path: Assets/Easy Character Movement/Examples/Textures
-  artifactKey: Guid(291a6349a1a56254db090ee9e2debeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easy Character Movement/Examples/Textures using Guid(291a6349a1a56254db090ee9e2debeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198124479248d93905ef0f8961bd92be') in 0.009066 seconds
-  Import took 0.013306 seconds .
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Non-Precipitation/Clear.asset
+  artifactKey: Guid(5e51740885cc8c14497e44041aeb303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Non-Precipitation/Clear.asset using Guid(5e51740885cc8c14497e44041aeb303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8450019432ebbe898a05dd55ef945061') in 0.038702 seconds
+  Import took 0.041844 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001272 seconds.
+Registered in 0.001312 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -197,86 +101,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
+- Completed reload, in  1.015 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1639 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.1 MB.
-System memory in use after: 179.3 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2215.
-Total: 4.390600 ms (FindLiveObjects: 0.383600 ms CreateObjectMapping: 0.175100 ms MarkObjects: 2.934600 ms  DeleteObjects: 0.895900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.389265 seconds.
-  path: Assets/Scenes/scrap_scenes/easy charachter movement.unity
-  artifactKey: Guid(afac4f4f58563b04b82ab8ad0e4dde84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/scrap_scenes/easy charachter movement.unity using Guid(afac4f4f58563b04b82ab8ad0e4dde84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48d7a1dcb8dd1a30e6d2794487e4f59') in 0.029002 seconds
-  Import took 0.033050 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001141 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.215 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.0 MB.
-System memory in use after: 178.2 MB.
+System memory in use before: 183.1 MB.
+System memory in use after: 180.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2264.
-Total: 3.488300 ms (FindLiveObjects: 0.281100 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.220400 ms  DeleteObjects: 0.894700 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 3.304200 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.084100 ms MarkObjects: 1.984200 ms  DeleteObjects: 0.911000 ms)
 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.8 MB.
-System memory in use after: 145.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2264.
-Total: 7.376700 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.142400 ms MarkObjects: 4.870100 ms  DeleteObjects: 2.028400 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.3 MB.
-System memory in use after: 145.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2264.
-Total: 3.189100 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.099300 ms MarkObjects: 2.061400 ms  DeleteObjects: 0.812900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001170 seconds.
+Registered in 0.001879 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
@@ -290,81 +129,11 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.5 MB.
-System memory in use after: 178.7 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2267.
-Total: 3.638400 ms (FindLiveObjects: 0.261000 ms CreateObjectMapping: 0.156700 ms MarkObjects: 2.283000 ms  DeleteObjects: 0.936100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001143 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.227 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.5 MB.
-System memory in use after: 178.7 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 4.003000 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.137200 ms MarkObjects: 2.646800 ms  DeleteObjects: 0.952400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001182 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.421 seconds
+- Completed reload, in  1.094 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -372,7 +141,1511 @@ Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 183.1 MB.
 System memory in use after: 180.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2273.
-Total: 5.751300 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 0.151700 ms MarkObjects: 3.835800 ms  DeleteObjects: 1.310400 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 3.641700 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.233300 ms  DeleteObjects: 0.939200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.1 MB.
+System memory in use after: 180.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 4.122600 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.171900 ms MarkObjects: 2.478900 ms  DeleteObjects: 1.171300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 751.768241 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Precipitation
+  artifactKey: Guid(b3fa4c9ef74f7554c83c5c81baee67bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Precipitation using Guid(b3fa4c9ef74f7554c83c5c81baee67bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548d602e1385036b9773d5046f027516') in 0.013597 seconds
+  Import took 0.017231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.011315 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Special
+  artifactKey: Guid(1fed85027741b4047819104a7878fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Special using Guid(1fed85027741b4047819104a7878fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8200ca2fb8c5ab62b595e0bb31be8e') in 0.011068 seconds
+  Import took 0.014756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.950677 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Auroras
+  artifactKey: Guid(de0fbb3794caa4445a1c6ba568a310da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Auroras using Guid(de0fbb3794caa4445a1c6ba568a310da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1586b57b48389fa5b125d429ab117ab5') in 0.009201 seconds
+  Import took 0.013226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.620761 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Non-Precipitation
+  artifactKey: Guid(345027694c703e747a584bcec07d1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Non-Precipitation using Guid(345027694c703e747a584bcec07d1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54992248f18b13d028391af15fe6647') in 0.009020 seconds
+  Import took 0.012897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.095335 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/UniStormCharacterController.cs
+  artifactKey: Guid(7d14d692845e6bd4890cb48d680e50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/UniStormCharacterController.cs using Guid(7d14d692845e6bd4890cb48d680e50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903812136b6d48cda23cb40e7c015858') in 0.014618 seconds
+  Import took 0.018020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002301 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/UniStormCharacterController.cs
+  artifactKey: Guid(7d14d692845e6bd4890cb48d680e50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/UniStormCharacterController.cs using Guid(7d14d692845e6bd4890cb48d680e50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903812136b6d48cda23cb40e7c015858') in 0.003863 seconds
+  Import took 0.007994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.062526 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/Pause.cs
+  artifactKey: Guid(d07c8b350d4ad1347b2fa6a9316eb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/Pause.cs using Guid(d07c8b350d4ad1347b2fa6a9316eb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cfc7852939320c5cce0d1cae97ae6e') in 0.008922 seconds
+  Import took 0.013020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001257 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/Pause.cs
+  artifactKey: Guid(d07c8b350d4ad1347b2fa6a9316eb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/Pause.cs using Guid(d07c8b350d4ad1347b2fa6a9316eb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cfc7852939320c5cce0d1cae97ae6e') in 0.004135 seconds
+  Import took 0.007603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.828153 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scripts/Demo/FPSCounter.cs
+  artifactKey: Guid(a984911de8a86cf479f4f31cd21f6b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scripts/Demo/FPSCounter.cs using Guid(a984911de8a86cf479f4f31cd21f6b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733059f8b5cdc8397fc1690d6352f87f') in 0.008972 seconds
+  Import took 0.012647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.217307 seconds.
+  path: Assets/PostProcessing/Editor
+  artifactKey: Guid(e0e418747b892364db5c5f4451e67ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Editor using Guid(e0e418747b892364db5c5f4451e67ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd478dfefc6ba728ed9ff669ca1dc315c') in 0.011464 seconds
+  Import took 0.015289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.765713 seconds.
+  path: Assets/Packages/UniStorm Weather System/Sounds
+  artifactKey: Guid(df7a83f5d54e4d94dbc80dd24fee7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Sounds using Guid(df7a83f5d54e4d94dbc80dd24fee7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a10de7929a829421449ce067184709c') in 0.011190 seconds
+  Import took 0.014807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.847013 seconds.
+  path: Assets/Packages/UniStorm Weather System/Sounds/Weather Effects
+  artifactKey: Guid(3aad441df46e82440a008ea1be7f73b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Sounds/Weather Effects using Guid(3aad441df46e82440a008ea1be7f73b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edfd86d6a80412b8017ce8c6c55eea0') in 0.010400 seconds
+  Import took 0.014254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.752554 seconds.
+  path: Assets/Packages/UniStorm Weather System/Sounds/Birds
+  artifactKey: Guid(2f6c1f0347c007d4dab00f99dad65461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Sounds/Birds using Guid(2f6c1f0347c007d4dab00f99dad65461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb1b30e0cea947d222f2d822eaa7c3f') in 0.009051 seconds
+  Import took 0.012665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.708563 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Components/Resources/UniStorm Audio Mixer.mixer
+  artifactKey: Guid(9d233b585150a5b4b8c9199aaabcc8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Components/Resources/UniStorm Audio Mixer.mixer using Guid(9d233b585150a5b4b8c9199aaabcc8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db76ee143a0f9ce9a5cd50afa8bbcd0') in 0.025526 seconds
+  Import took 0.028711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.478345 seconds.
+  path: Assets/Packages/UniStorm Weather System/Sounds/Weather Effects/Heavy Rain 1.wav
+  artifactKey: Guid(2036a494b42043d469bb0474e4d29855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Sounds/Weather Effects/Heavy Rain 1.wav using Guid(2036a494b42043d469bb0474e4d29855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcb251d355da257c278deecd2d80e1f') in 0.141950 seconds
+  Import took 0.146205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.973843 seconds.
+  path: Assets/Packages/UniStorm Weather System/Weather Types/Precipitation/Heavy Rain.asset
+  artifactKey: Guid(bad5e6801a6223942b1fb7cd7cf611d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Weather Types/Precipitation/Heavy Rain.asset using Guid(bad5e6801a6223942b1fb7cd7cf611d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ec494891c0fa12a2ce596c1ec40c1') in 0.016949 seconds
+  Import took 0.021035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.185641 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab
+  artifactKey: Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab using Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874fcead371d08f7c51548a914376f53') in 0.021740 seconds
+  Import took 0.024964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029077 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab
+  artifactKey: Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab using Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874fcead371d08f7c51548a914376f53') in 0.005564 seconds
+  Import took 0.008954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_waterfall.mat
+  artifactKey: Guid(8a3664201f78847469715294ad2c1ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_waterfall.mat using Guid(8a3664201f78847469715294ad2c1ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdeeec57d9ce277996cb9a0ad6cd5d1') in 0.103060 seconds
+  Import took 0.107688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096255 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab
+  artifactKey: Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/fx_waterfall.prefab using Guid(8466e1a003a019c448f034752011cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef54e2f425b80f54a61a4306b56d4bd0') in 0.005275 seconds
+  Import took 0.008897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.934427 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleLib.cs
+  artifactKey: Guid(f8550fcf5aa77894ea27473123821c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleLib.cs using Guid(f8550fcf5aa77894ea27473123821c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408c5e30d021ae770696c63f3a864673') in 0.009809 seconds
+  Import took 0.013327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.011116 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleFX.cs
+  artifactKey: Guid(5e37b6c61f752e246a02e2b1b6f7189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleFX.cs using Guid(5e37b6c61f752e246a02e2b1b6f7189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7247a7947917840e607a5e4756ed1941') in 0.009853 seconds
+  Import took 0.014280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001282 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleFX.cs
+  artifactKey: Guid(5e37b6c61f752e246a02e2b1b6f7189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/SCRIPTS/SuimonoModuleFX.cs using Guid(5e37b6c61f752e246a02e2b1b6f7189f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7247a7947917840e607a5e4756ed1941') in 0.004996 seconds
+  Import took 0.009944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.498228 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5504841c7586ff344926a4558c5c4fac') in 0.013092 seconds
+  Import took 0.016391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095258 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dca115331b062d22c2a6e786e62a496') in 0.004939 seconds
+  Import took 0.008062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dca115331b062d22c2a6e786e62a496') in 0.005728 seconds
+  Import took 0.009269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.222798 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafe623a80de1d83b576927d3c1039e5') in 0.005917 seconds
+  Import took 0.009076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.249922 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c31ba3d3a08a4b403a703508773970e') in 0.009242 seconds
+  Import took 0.012317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.622826 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29379911e3acb59f658f090af843d9da') in 0.006396 seconds
+  Import took 0.010156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.401683 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499a5ab86544d2f8d02bf1a1808dee20') in 0.005194 seconds
+  Import took 0.008726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.790605 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1d340925c59a1bc0dc5e56c36601df') in 0.005494 seconds
+  Import took 0.010013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.083348 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b139fdc6937ccfcb277d5f62e9fb8de2') in 0.006268 seconds
+  Import took 0.011008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.510515 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b18368e96328ea7665dcc3f0caf9fb') in 0.005576 seconds
+  Import took 0.009152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.766522 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab
+  artifactKey: Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/fx_object.prefab using Guid(e3bd598c08d2ab642be49a2fa7c8f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9531c8ddfcbd914ba3c016b2f6f71ed') in 0.007918 seconds
+  Import took 0.011118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.875874 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/buoyancyObject.prefab
+  artifactKey: Guid(ec0d1754ba936a04882bbd3e52f6ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/buoyancyObject.prefab using Guid(ec0d1754ba936a04882bbd3e52f6ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd540e9bc0e47411c923fd93fc6f9f156') in 0.010808 seconds
+  Import took 0.014758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.432200 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/PREFABS/causticObject.prefab
+  artifactKey: Guid(4fb366027c781e3418fdb327869ac38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/PREFABS/causticObject.prefab using Guid(4fb366027c781e3418fdb327869ac38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4815e8721ac92feb185ee474a00f39') in 0.011741 seconds
+  Import took 0.015401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.509282 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_fx_mist_hotspring.mat
+  artifactKey: Guid(f35f71411b76353419d885af63504141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_fx_mist_hotspring.mat using Guid(f35f71411b76353419d885af63504141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd1cb247a11ebc56c98e221ff59ba11') in 0.061813 seconds
+  Import took 0.065952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021767 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_fx_mist_hotspring.mat
+  artifactKey: Guid(f35f71411b76353419d885af63504141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/mat2_fx_mist_hotspring.mat using Guid(f35f71411b76353419d885af63504141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd1cb247a11ebc56c98e221ff59ba11') in 0.018333 seconds
+  Import took 0.022049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.5 MB.
+System memory in use after: 183.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 3.592200 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.409700 ms  DeleteObjects: 0.908900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001293 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.5 MB.
+System memory in use after: 183.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 3.983700 ms (FindLiveObjects: 0.251300 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.644900 ms  DeleteObjects: 0.976100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.5 MB.
+System memory in use after: 183.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 3.752200 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.094900 ms MarkObjects: 2.429000 ms  DeleteObjects: 0.985700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9387.467698 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Meshes/PalmTrees.obj
+  artifactKey: Guid(e362c97d29f2e4a41a797c4b0b7e4e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Meshes/PalmTrees.obj using Guid(e362c97d29f2e4a41a797c4b0b7e4e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a7b80866b07d35fa100440a8212b10') in 0.248892 seconds
+  Import took 0.253680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2173.009510 seconds.
+  path: Assets/Terrain/_3D Realistic Terrain Free/Textures/Ao_4K_Flat_A.png
+  artifactKey: Guid(a232a6eb993443a46a05026f0c5bf755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/_3D Realistic Terrain Free/Textures/Ao_4K_Flat_A.png using Guid(a232a6eb993443a46a05026f0c5bf755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49275ef02e0c642775add8e810149e41') in 0.111104 seconds
+  Import took 0.116256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/DefaultBiomeIcon.png
+  artifactKey: Guid(4b04865deb7ad5742904818d374d941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/DefaultBiomeIcon.png using Guid(4b04865deb7ad5742904818d374d941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d55924e75196dae252dca0edf8b0392') in 0.027472 seconds
+  Import took 0.031452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Decidious_4_C.png
+  artifactKey: Guid(cbfeb2867c4dc9949806880460cd8903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Decidious_4_C.png using Guid(cbfeb2867c4dc9949806880460cd8903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73eeb50af15d4f6e309097415ad3203') in 0.032751 seconds
+  Import took 0.037909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Easy Character Movement/Examples/Textures/EthanNormals.png
+  artifactKey: Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Textures/EthanNormals.png using Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f5724b6d434592364b4adc42bc73e9') in 0.105657 seconds
+  Import took 0.111095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CloudProfileIcon.png
+  artifactKey: Guid(4f396deff0dacb5489638161de89f586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CloudProfileIcon.png using Guid(4f396deff0dacb5489638161de89f586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4daa9a0a7593375a946e61eae561e4') in 0.021376 seconds
+  Import took 0.025851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Terrain/_3D Realistic Terrain Free/Textures/Grass_Sprite_01.psd
+  artifactKey: Guid(003130d2c67e6e34ea2cb4755e0df65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/_3D Realistic Terrain Free/Textures/Grass_Sprite_01.psd using Guid(003130d2c67e6e34ea2cb4755e0df65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be89550b1dc471ae38a6351be60657d') in 0.066360 seconds
+  Import took 0.070681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Birch_N.png
+  artifactKey: Guid(d1ec1ffc9bb24764aaf2f184d4099fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Birch_N.png using Guid(d1ec1ffc9bb24764aaf2f184d4099fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cf6b4dba26268af128e8283093e946') in 0.042539 seconds
+  Import took 0.046655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Decidious_1_N.png
+  artifactKey: Guid(92c26973bc634c8428fcaeef6ee842e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Decidious_1_N.png using Guid(92c26973bc634c8428fcaeef6ee842e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b255e2cf6b08efb9cef423dd72a053b5') in 0.046911 seconds
+  Import took 0.051495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Terrain/_3D Realistic Terrain Free/Textures/CloudBlur.png
+  artifactKey: Guid(372589839a9c7c84594bb21c04c76f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/_3D Realistic Terrain Free/Textures/CloudBlur.png using Guid(372589839a9c7c84594bb21c04c76f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5883a99631b6d55a11a89b62ce9ddb2') in 0.031231 seconds
+  Import took 0.035320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Terrain/_3D Realistic Terrain Free/Textures/Diffuse_8K_Flat_B.png
+  artifactKey: Guid(fc768d5bf2927494197b36691d6fc6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/_3D Realistic Terrain Free/Textures/Diffuse_8K_Flat_B.png using Guid(fc768d5bf2927494197b36691d6fc6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47a5ac9c85b68b6d6fe68cadeb984ff') in 0.271716 seconds
+  Import took 0.282092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Pine_C.png
+  artifactKey: Guid(acacdf16865712e44b6cfbf6245d8dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Pine_C.png using Guid(acacdf16865712e44b6cfbf6245d8dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81a4837188299ea75a7e86fc06d2c5f') in 0.031070 seconds
+  Import took 0.035097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Clouds/baseNoise.asset
+  artifactKey: Guid(6836f94df624e6d4b9fcdb3354d89dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Clouds/baseNoise.asset using Guid(6836f94df624e6d4b9fcdb3354d89dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4714f72967a0e49444c261737f71013a') in 0.060874 seconds
+  Import took 0.064783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Weather/Particles/Blowing Snow.png
+  artifactKey: Guid(a15c8155259fd0d4a88fdf87b66d663b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Weather/Particles/Blowing Snow.png using Guid(a15c8155259fd0d4a88fdf87b66d663b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3231195f73ace0324487a97d9349abc7') in 0.023169 seconds
+  Import took 0.027759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Needles_N.png
+  artifactKey: Guid(5ad10eee112265f4eac3de156252d9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Needles_N.png using Guid(5ad10eee112265f4eac3de156252d9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847440444f0cba88a1d8a3db9301854f') in 0.035452 seconds
+  Import took 0.040543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Damaged_N.png
+  artifactKey: Guid(97f9c8e269ef2f941a8492f6f28cda2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Damaged_N.png using Guid(97f9c8e269ef2f941a8492f6f28cda2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cace2169bf9318c3f3fdfd632400441') in 0.037710 seconds
+  Import took 0.041854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/MTree/Textures/Branch/Branch Serrate_C.png
+  artifactKey: Guid(8b0017825887ee44e83ac0cb49ceadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch Serrate_C.png using Guid(8b0017825887ee44e83ac0cb49ceadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610091faea78e5c0468667f7bc92c0aa') in 0.036562 seconds
+  Import took 0.040898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Decidious_3_N.png
+  artifactKey: Guid(d2dc7536aa6a547429a63578273e514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Decidious_3_N.png using Guid(d2dc7536aa6a547429a63578273e514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15df5f5e3c1af78987504fe88e7d3aff') in 0.044253 seconds
+  Import took 0.048917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Decidious_1_C.png
+  artifactKey: Guid(a121052457056ad42b5e3d3101af35f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Decidious_1_C.png using Guid(a121052457056ad42b5e3d3101af35f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36960bdf027eb1a7c11b8544f19c96b') in 0.044069 seconds
+  Import took 0.049727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Terrain/_3D Realistic Terrain Free/Textures/Diffuse_8K_Flat_C.png
+  artifactKey: Guid(217529463d18ec548b3ae57962bfa781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/_3D Realistic Terrain Free/Textures/Diffuse_8K_Flat_C.png using Guid(217529463d18ec548b3ae57962bfa781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b238e4fe4b65223ebacdef776e97ab') in 0.259918 seconds
+  Import took 0.272095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Decidious_3_C.png
+  artifactKey: Guid(9e2bd545dcb51d645bc6ad55a98bf40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Decidious_3_C.png using Guid(9e2bd545dcb51d645bc6ad55a98bf40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197026b6d35615dba33dcbccf77f111d') in 0.036771 seconds
+  Import took 0.040364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Poplar_C.png
+  artifactKey: Guid(08b4b41ddb022d24b92e3dfce1a4a2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Poplar_C.png using Guid(08b4b41ddb022d24b92e3dfce1a4a2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b5f2354bfa568121fba4e1ef87e97e') in 0.035978 seconds
+  Import took 0.039715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Poplar_N.png
+  artifactKey: Guid(aa882347c9f7d1143958d88fa8382ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Poplar_N.png using Guid(aa882347c9f7d1143958d88fa8382ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad56f016c0c6a483218a5de893d55eb') in 0.035239 seconds
+  Import took 0.039786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CloudProfileIcon3.png
+  artifactKey: Guid(353abda13a5fd724baf028fa25445cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CloudProfileIcon3.png using Guid(353abda13a5fd724baf028fa25445cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399ea477ca0bef2675cba230a9a52dda') in 0.031009 seconds
+  Import took 0.035444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Birch_C.png
+  artifactKey: Guid(59e7d676010665a40b498b96da4bc334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Birch_C.png using Guid(59e7d676010665a40b498b96da4bc334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d1eeb29ad7dc8fcada62b2eee81875') in 0.039797 seconds
+  Import took 0.043497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/MTree/Resources/Mtree/Sprites/DeleteCrossSprite.png
+  artifactKey: Guid(fd8af19349c54814ba6c38c1950b6a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Resources/Mtree/Sprites/DeleteCrossSprite.png using Guid(fd8af19349c54814ba6c38c1950b6a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad031a2de0c9df6bc8568912eb14295b') in 0.027922 seconds
+  Import took 0.032250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Clouds/curlNoise.asset
+  artifactKey: Guid(2441edbc585791d4e835bd08237d43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Clouds/curlNoise.asset using Guid(2441edbc585791d4e835bd08237d43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45478c70153b1c557ca7c3831f87f00') in 0.028886 seconds
+  Import took 0.032473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/WoodenCrates/Textures/diffuse.tga
+  artifactKey: Guid(f39c6a5d3b3aec44bad61e4389677fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/WoodenCrates/Textures/diffuse.tga using Guid(f39c6a5d3b3aec44bad61e4389677fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7977c2a6664723706eda9e654e16258') in 0.033686 seconds
+  Import took 0.038010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Palm_C.png
+  artifactKey: Guid(016164df0e49cfb479a9c844606ec508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Palm_C.png using Guid(016164df0e49cfb479a9c844606ec508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c61bed88f41c9eb966f36ffb1e0036') in 0.029995 seconds
+  Import took 0.034647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Needles_C.png
+  artifactKey: Guid(fbff189d7fcb7ee4a890b761de33346d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Needles_C.png using Guid(fbff189d7fcb7ee4a890b761de33346d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749c98e98c4661583f40142a9f69f83b') in 0.031742 seconds
+  Import took 0.036588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Damaged_C.png
+  artifactKey: Guid(874120e7f6d062442a131836cdfec782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Damaged_C.png using Guid(874120e7f6d062442a131836cdfec782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f28ff1a0d71b01ea04fd6bbe405c230') in 0.032851 seconds
+  Import took 0.036498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Pine_2_N.png
+  artifactKey: Guid(be7475fc9b0738f4985df2d6cfad4dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Pine_2_N.png using Guid(be7475fc9b0738f4985df2d6cfad4dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4090a0ea3afa553559121d46c59cca6') in 0.080777 seconds
+  Import took 0.084633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Oak_N.png
+  artifactKey: Guid(d8e4c639cdebf4e4a82404ea5668733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Oak_N.png using Guid(d8e4c639cdebf4e4a82404ea5668733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c191f66637255b57ec33eb679099f2b') in 0.035393 seconds
+  Import took 0.039714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Oak_C.png
+  artifactKey: Guid(22d7e1b6540cf8d4ba00f70d0617863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Oak_C.png using Guid(22d7e1b6540cf8d4ba00f70d0617863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f390fb2e2bab3a99c5851a1b956cfcfc') in 0.033167 seconds
+  Import took 0.038988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/PostProcessing/Utilities/CustomMotionTexture/Textures/DebugMotionVectors.png
+  artifactKey: Guid(3aac3087967ea4fae858ec0494fd24d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing/Utilities/CustomMotionTexture/Textures/DebugMotionVectors.png using Guid(3aac3087967ea4fae858ec0494fd24d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b6a206e096808b842ce2676387e5d0') in 0.033186 seconds
+  Import took 0.037776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/gridtrigger.psd
+  artifactKey: Guid(9dc22408100c7e74f97d38cf5ceac96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/gridtrigger.psd using Guid(9dc22408100c7e74f97d38cf5ceac96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5113f4bb4a9e83bc7e94bc04876da624') in 0.029929 seconds
+  Import took 0.033897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CloudProfileIcon1.png
+  artifactKey: Guid(024aef66353d6c549a7314dcc3ad4502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CloudProfileIcon1.png using Guid(024aef66353d6c549a7314dcc3ad4502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e079abbc3bfb558e3f497267bb3f129') in 0.028484 seconds
+  Import took 0.033854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CloudProfileIcon2.png
+  artifactKey: Guid(c8e7eccf69ce8e4429bf9a14b4588264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CloudProfileIcon2.png using Guid(c8e7eccf69ce8e4429bf9a14b4588264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45e19f2121300954a36a24dc78037c8') in 0.027650 seconds
+  Import took 0.032250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Easy Character Movement/Examples/Textures/EthanAlbedoSpecular.png
+  artifactKey: Guid(e16ba951474c692438462eb2fe55d599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Textures/EthanAlbedoSpecular.png using Guid(e16ba951474c692438462eb2fe55d599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f213ddaf29dbebf3560722867c220a') in 0.035848 seconds
+  Import took 0.039819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Decidious_4_N.png
+  artifactKey: Guid(b3a8b02284c008548941ccb056fa869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Decidious_4_N.png using Guid(b3a8b02284c008548941ccb056fa869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44992627054c96828e9aba9876bff84e') in 0.034688 seconds
+  Import took 0.040029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Pine_1_N.png
+  artifactKey: Guid(6abcf175224a4044a85c0d091d35f7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Pine_1_N.png using Guid(6abcf175224a4044a85c0d091d35f7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c44d37b5a1e48a56eab2907eee3c6d9') in 0.034194 seconds
+  Import took 0.038305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_bgpreset.psd
+  artifactKey: Guid(a2d12eca5afaf4b46942d6d6357a2695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_bgpreset.psd using Guid(a2d12eca5afaf4b46942d6d6357a2695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc00a3d27ac2c7975523c47c16497157') in 0.019871 seconds
+  Import took 0.024159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Palm_N.bmp
+  artifactKey: Guid(35e04d0705a40e640bf144db7996fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Palm_N.bmp using Guid(35e04d0705a40e640bf144db7996fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df70b702c8ae672d05bc9cadd7570825') in 0.035988 seconds
+  Import took 0.040230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Palmate_C.png
+  artifactKey: Guid(a15934941f44fe949839d45e57e1dab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Palmate_C.png using Guid(a15934941f44fe949839d45e57e1dab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e1d6dcef2b13d02777a1c1f48e6a7e') in 0.045234 seconds
+  Import took 0.050025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Grass/Flowers.png
+  artifactKey: Guid(3c1f448d6e737fc49a10735518edb41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Grass/Flowers.png using Guid(3c1f448d6e737fc49a10735518edb41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06703b0a39f3e56fcd23f07112308983') in 0.031955 seconds
+  Import took 0.036233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Pine_N.png
+  artifactKey: Guid(38b1a811b80dedf47a8ef95c64aebe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Pine_N.png using Guid(38b1a811b80dedf47a8ef95c64aebe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81449536d02a24b24d2f804771d2369') in 0.032728 seconds
+  Import took 0.037589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Terrain/Forest_Bump.png
+  artifactKey: Guid(c8a3a5ad85e957c43ad61a4813914fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Terrain/Forest_Bump.png using Guid(c8a3a5ad85e957c43ad61a4813914fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a1a74e580cf96ca7703ce146927645') in 0.034584 seconds
+  Import took 0.039149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_weed2.psd
+  artifactKey: Guid(5ecd821dcd0af1e439041678d05f0b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_weed2.psd using Guid(5ecd821dcd0af1e439041678d05f0b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1cc56367ed9ec80909df5f98f682ba') in 0.029676 seconds
+  Import took 0.034929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_warm.psd
+  artifactKey: Guid(1aae52ff3c47946488d0d26171174602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_warm.psd using Guid(1aae52ff3c47946488d0d26171174602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cceee6f764855946bb86d0f5225338b2') in 0.028652 seconds
+  Import took 0.034345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_greentall.psd
+  artifactKey: Guid(58a83b74ca55f2c42a03a181b4fcb319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_greentall.psd using Guid(58a83b74ca55f2c42a03a181b4fcb319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6828d49fa70d070dcb208be395b7588') in 0.030828 seconds
+  Import took 0.035209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_green.psd
+  artifactKey: Guid(cb61381e12c1f1240bc9b49c9d335d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_green.psd using Guid(cb61381e12c1f1240bc9b49c9d335d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a66119eeab9e04eee060bf755365715') in 0.029255 seconds
+  Import took 0.033045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_straw.psd
+  artifactKey: Guid(6248038c5539fda49a82d52b64605d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_straw.psd using Guid(6248038c5539fda49a82d52b64605d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6576ce25634c11c7838e854d2babeacf') in 0.028759 seconds
+  Import took 0.033063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_weed1.psd
+  artifactKey: Guid(22ead3c31ee8fc74c9148c31e3b82a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_weed1.psd using Guid(22ead3c31ee8fc74c9148c31e3b82a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6cb06f41f0ce7c4bf355397acf6b9a') in 0.028908 seconds
+  Import took 0.034145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CelestialIcon.png
+  artifactKey: Guid(46237456fd34e2d47a9417c59292c5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CelestialIcon.png using Guid(46237456fd34e2d47a9417c59292c5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19a7ffff98bd0518a4d3bc671fe2db6') in 0.019683 seconds
+  Import took 0.024651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CameraIcon.png
+  artifactKey: Guid(da54e242d21cf414a8606580b872fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Icons/Resources/CameraIcon.png using Guid(da54e242d21cf414a8606580b872fc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7533c6b2f7d12e7f0944c6f63f4a67fe') in 0.019947 seconds
+  Import took 0.023969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Pine_2_C.png
+  artifactKey: Guid(1cd902d2579c71e4fad3def2ecdfe7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Pine_2_C.png using Guid(1cd902d2579c71e4fad3def2ecdfe7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a5aa4593d4e38dffd68a1a0ee2c1fd') in 0.040711 seconds
+  Import took 0.045141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Terrain/Forest_D.png
+  artifactKey: Guid(bbb8d43d10c36d34da8060dfdb83134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Terrain/Forest_D.png using Guid(bbb8d43d10c36d34da8060dfdb83134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c53885608e074ca151b168f1b0b7415') in 0.031457 seconds
+  Import took 0.035801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/MTree/Textures/Bark/Bark_Decidious_2_C.png
+  artifactKey: Guid(2fcf5f7228e38b347849b5adb05e9b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Bark/Bark_Decidious_2_C.png using Guid(2fcf5f7228e38b347849b5adb05e9b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c351800b9b046f09f6872caadac08593') in 0.036277 seconds
+  Import took 0.041110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_grass_norm.psd
+  artifactKey: Guid(45e7ffd9ffac9a84db38d294140d10b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_grass_norm.psd using Guid(45e7ffd9ffac9a84db38d294140d10b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33efab3ba184d083954777f1d1b13526') in 0.031867 seconds
+  Import took 0.036578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Palmate_N.png
+  artifactKey: Guid(c0f56955c2cc34e4d9d45babf6bb86e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Palmate_N.png using Guid(c0f56955c2cc34e4d9d45babf6bb86e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3424bab32868c2548c94037a4de29b') in 0.043326 seconds
+  Import took 0.048375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Easy Character Movement/Examples/Textures/GridEmissive.png
+  artifactKey: Guid(0fc0461f0391f15418b111c1c1b0321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Textures/GridEmissive.png using Guid(0fc0461f0391f15418b111c1c1b0321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b357ff587a9ff57c45a3a6213827bdbf') in 0.029082 seconds
+  Import took 0.033176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Celestial/Aurora/Aurora Map.png
+  artifactKey: Guid(a66a0d84d44d91b42a128166d6b98437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Celestial/Aurora/Aurora Map.png using Guid(a66a0d84d44d91b42a128166d6b98437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d46829e5a037fa67295e0933539818') in 0.033871 seconds
+  Import took 0.038059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Packages/UniStorm Weather System/Resources/Clouds/baseNoisePrecomputed.asset
+  artifactKey: Guid(c08f26408e04aba4ea8548439d40b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Resources/Clouds/baseNoisePrecomputed.asset using Guid(c08f26408e04aba4ea8548439d40b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4721264407e2fced7ae5b4d0cfaf37b') in 0.053018 seconds
+  Import took 0.056886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/MTree/Textures/Branch/Branch_Pine_1_C.png
+  artifactKey: Guid(8981b5bb2b6f2cb46a7660180b7fbbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch_Pine_1_C.png using Guid(8981b5bb2b6f2cb46a7660180b7fbbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2613cb4c623c815acc463b6ab17f3fcb') in 0.066460 seconds
+  Import took 0.070526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Grass/Grass.png
+  artifactKey: Guid(46f8e366daebe85408c108b6fe82a62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Grass/Grass.png using Guid(46f8e366daebe85408c108b6fe82a62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b733984827f783d6ab688caa7e1135f1') in 0.069285 seconds
+  Import took 0.073529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/MTree/Textures/Branch/Branch Serrate_N.png
+  artifactKey: Guid(bdcffb5968b084b4490b00efe97041e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Branch/Branch Serrate_N.png using Guid(bdcffb5968b084b4490b00efe97041e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5807ffc0f1bd1155631f3f3a4fc4ef') in 0.033244 seconds
+  Import took 0.037710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_flower1.psd
+  artifactKey: Guid(ecdf078a296ae5647b2815087d46012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_grass/tex_detail_grass_flower1.psd using Guid(ecdf078a296ae5647b2815087d46012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e013be2e3414566e52ff624835513a14') in 0.030396 seconds
+  Import took 0.034024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Easy Character Movement/Examples/Textures/EthanOcclusion.png
+  artifactKey: Guid(4e2f32e9a1fefc24092337ae061f3dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Textures/EthanOcclusion.png using Guid(4e2f32e9a1fefc24092337ae061f3dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfd36f05897a097f634e20471cb0b1a') in 0.054850 seconds
+  Import took 0.059036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_grass_diff.psd
+  artifactKey: Guid(f59645b152f04d44980d3fdc930a3966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_grass_diff.psd using Guid(f59645b152f04d44980d3fdc930a3966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a140fb6dbc490eafeca7036789a50319') in 0.034369 seconds
+  Import took 0.038708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Terrain/Grass_Bump.png
+  artifactKey: Guid(34ebeb72cccecb54094eac03cac3d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Terrain/Grass_Bump.png using Guid(34ebeb72cccecb54094eac03cac3d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f894ce547bea7648754ae2f0be22800') in 0.026295 seconds
+  Import took 0.030608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.406476 seconds.
+  path: Assets/Gizmos/gui_icon_fxobj.psd
+  artifactKey: Guid(85cdda794b69b5442b2f54b496cacb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/gui_icon_fxobj.psd using Guid(85cdda794b69b5442b2f54b496cacb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e977de3d02ab485f20a4c9be932afa') in 0.029871 seconds
+  Import took 0.034439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_tex_suimonologofxsys.png
+  artifactKey: Guid(7dd4c2b2169d19d41bc1a45882b65a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_tex_suimonologofxsys.png using Guid(7dd4c2b2169d19d41bc1a45882b65a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67ef40fedeb84046326f892f6fce5d0') in 0.020576 seconds
+  Import took 0.024372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Weather/Particles/Leaf.png
+  artifactKey: Guid(edd1070d26bb55049a516a72a75c6f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Weather/Particles/Leaf.png using Guid(edd1070d26bb55049a516a72a75c6f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cce7ad9dc86d3e00a7e7c99a6e5072') in 0.024193 seconds
+  Import took 0.029012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/tex_fx_bubbles.psd
+  artifactKey: Guid(73dc00b9f30e27048ab5aafb9ff31455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/tex_fx_bubbles.psd using Guid(73dc00b9f30e27048ab5aafb9ff31455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd907b5b25ac20df0988fd07bbd57f68') in 0.035180 seconds
+  Import took 0.039164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_wakeFoamMask.psd
+  artifactKey: Guid(8fb03acbbe74d0e43bb2f4714205e6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_wakeFoamMask.psd using Guid(8fb03acbbe74d0e43bb2f4714205e6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506cf98e95c52392a0c89ff5491cc551') in 0.026663 seconds
+  Import took 0.030429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock01_diff.tga
+  artifactKey: Guid(8822689543cc0754ea1e81847afc0fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock01_diff.tga using Guid(8822689543cc0754ea1e81847afc0fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14894a3fbe8a0b0b8f042dc14ed57234') in 0.035554 seconds
+  Import took 0.039879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Effects/ParticleFirecloud.png
+  artifactKey: Guid(c3d66a8056f9db345b1ea380aa7e815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Effects/ParticleFirecloud.png using Guid(c3d66a8056f9db345b1ea380aa7e815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105b7410e573f29023ac8b77897267c5') in 0.028456 seconds
+  Import took 0.032940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_tex_suimonologofxsys_i.png
+  artifactKey: Guid(386d3ffb3ac43f14c933f442c0085891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_tex_suimonologofxsys_i.png using Guid(386d3ffb3ac43f14c933f442c0085891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb2acd17d29b65abe1496fedf6b38fc') in 0.025404 seconds
+  Import took 0.030190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Weather/Particles/Snow Flake.png
+  artifactKey: Guid(ae59c026ad34d644b948b6638c7003b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Weather/Particles/Snow Flake.png using Guid(ae59c026ad34d644b948b6638c7003b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9463d83a2b78b8c0f0b25f751343de86') in 0.024067 seconds
+  Import took 0.028400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_sand_diff.psd
+  artifactKey: Guid(0e7ff8b0a22e63b4092893357cb9042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_sand_diff.psd using Guid(0e7ff8b0a22e63b4092893357cb9042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c8c759cfd8d4a57f8f1958be6e0412') in 0.029118 seconds
+  Import took 0.034203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_ramp_foam.psd
+  artifactKey: Guid(01757909dcbf805408fe7867004a31a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_ramp_foam.psd using Guid(01757909dcbf805408fe7867004a31a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e220bbabbeb7f966170ae33a810372') in 0.021872 seconds
+  Import took 0.027697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_underFalloff.psd
+  artifactKey: Guid(e6828602b41b1b6408b4d72037e9d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_underFalloff.psd using Guid(e6828602b41b1b6408b4d72037e9d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a04eb83652361f1434ac79ce6c17c2e') in 0.024000 seconds
+  Import took 0.028063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/OBJECTS/character_miho/textures/tex_miho_b_diffuse.psd
+  artifactKey: Guid(712b146eb1d41c94b992bd1fd0935145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/OBJECTS/character_miho/textures/tex_miho_b_diffuse.psd using Guid(712b146eb1d41c94b992bd1fd0935145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee0e1fa465d3ef7e79a74219c57bdc1') in 0.031860 seconds
+  Import took 0.036172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/MTree/Textures/Single Leafs/Leaf_Palm_N.png
+  artifactKey: Guid(664045428f2a0bc45aca0e0530845b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Single Leafs/Leaf_Palm_N.png using Guid(664045428f2a0bc45aca0e0530845b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd061838d79b60402ef85a33d9fb5c') in 0.032772 seconds
+  Import took 0.037095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_tex_suimonologofx_i.png
+  artifactKey: Guid(64597e7ff37c4ae4e81dda69a2af99ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_tex_suimonologofx_i.png using Guid(64597e7ff37c4ae4e81dda69a2af99ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a67ad85bdde04c30d1ed5cd07321687') in 0.026600 seconds
+  Import took 0.030753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/MTree/Textures/Single Leafs/Leaf_Willow_C.png
+  artifactKey: Guid(814a058e8949c104781c711af9a0e500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Single Leafs/Leaf_Willow_C.png using Guid(814a058e8949c104781c711af9a0e500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ec789d863e82e70ffc502f1a9685e0') in 0.028007 seconds
+  Import took 0.032218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/tex_splash_ringfoam.psd
+  artifactKey: Guid(0e715063305cbba489660d8807caf324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/tex_splash_ringfoam.psd using Guid(0e715063305cbba489660d8807caf324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85968076a125836d5934891d0b0c0fa') in 0.027936 seconds
+  Import took 0.031527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Plants/Textures/tropical2_diff.tga
+  artifactKey: Guid(f99c7d725fc3f4c428e8e1bc033f756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Plants/Textures/tropical2_diff.tga using Guid(f99c7d725fc3f4c428e8e1bc033f756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad07b3ade5698a9e28966e5e08d01053') in 0.027079 seconds
+  Import took 0.030635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Plants/Textures/tropical1_diff.tga
+  artifactKey: Guid(31f31d40989d1f24f82cc1672e008e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Plants/Textures/tropical1_diff.tga using Guid(31f31d40989d1f24f82cc1672e008e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f3bd6372ae3bc352f9cf0dc6024239') in 0.031527 seconds
+  Import took 0.035188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock03_diff.tga
+  artifactKey: Guid(b9a71fcaa5d16bc4cbcc76efd879a3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock03_diff.tga using Guid(b9a71fcaa5d16bc4cbcc76efd879a3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2385034548f6edbdb87642b6dbdf3737') in 0.030486 seconds
+  Import took 0.034066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/MTree/Textures/Single Leafs/Leaf_Fern_N.png
+  artifactKey: Guid(511616531fba94944a43575f591f8f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Single Leafs/Leaf_Fern_N.png using Guid(511616531fba94944a43575f591f8f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7580fc95947c49a4aeb3359184d766') in 0.041646 seconds
+  Import took 0.046058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/OBJECTS/character_miho/textures/tex_miho_hair_diffuse.psd
+  artifactKey: Guid(16f3057671f8a1f41abda77d4722ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/OBJECTS/character_miho/textures/tex_miho_hair_diffuse.psd using Guid(16f3057671f8a1f41abda77d4722ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea2a30c1a4f6a6e517beef94760f52f') in 0.028530 seconds
+  Import took 0.032682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/MTree/Resources/Mtree/Sprites/TreeFunctionSpriteSelected.psd
+  artifactKey: Guid(e6953a04438126f4d87e925d57fffbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Resources/Mtree/Sprites/TreeFunctionSpriteSelected.psd using Guid(e6953a04438126f4d87e925d57fffbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d420ad25c64bf48e7fcacb2e51a7fc') in 0.027730 seconds
+  Import took 0.032160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Textures/Palm trees diffuse.tga
+  artifactKey: Guid(1015e8aa21cee80489e4f295b0187093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Textures/Palm trees diffuse.tga using Guid(1015e8aa21cee80489e4f295b0187093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119bfa6e98e6ca2184fccd7b44f2af3c') in 0.030643 seconds
+  Import took 0.034528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Effects/ParticleFlare.png
+  artifactKey: Guid(76b24fa8a46a2c14f9a7df1e975dc4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Effects/ParticleFlare.png using Guid(76b24fa8a46a2c14f9a7df1e975dc4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68fe985b60f2f816f8a45499d2f6be5') in 0.019460 seconds
+  Import took 0.023255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/MTree/Textures/Single Leafs/Leaf_Palm_C.png
+  artifactKey: Guid(5832972d7c8c0304da9dc62eec537bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Single Leafs/Leaf_Palm_C.png using Guid(5832972d7c8c0304da9dc62eec537bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c7d26374575867abc6417fca6d70c9') in 0.030020 seconds
+  Import took 0.034038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Effects/ParticleFlamesSheet.png
+  artifactKey: Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Effects/ParticleFlamesSheet.png using Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adb4e9826b33d9f979dd2baa7480e92') in 0.020980 seconds
+  Import took 0.025693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Packages/UniStorm Weather System/Textures/Terrain/RockyDirt_Diffuse.tif
+  artifactKey: Guid(664d34142c7fdc2449d13c0ebc92d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Textures/Terrain/RockyDirt_Diffuse.tif using Guid(664d34142c7fdc2449d13c0ebc92d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5ac5bcbdac4796868b4c2267969e76') in 0.047756 seconds
+  Import took 0.051423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/OBJECTS/character_miho/textures/tex_miho_h_diffuse.psd
+  artifactKey: Guid(01124c47fb153114c816e1eb139c9087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/OBJECTS/character_miho/textures/tex_miho_h_diffuse.psd using Guid(01124c47fb153114c816e1eb139c9087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c568c5c005473f812e9ee69c25f5842a') in 0.035862 seconds
+  Import took 0.039801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/tex_fx_mist.psd
+  artifactKey: Guid(a5fb62a83726c5545b5e8a0e5046952f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/tex_fx_mist.psd using Guid(a5fb62a83726c5545b5e8a0e5046952f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56b5d51b9e462c18d7030e6338988af') in 0.026361 seconds
+  Import took 0.030343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Plants/Textures/under1_diff.tga
+  artifactKey: Guid(2f100804d373b9a4891c5326e7309b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Plants/Textures/under1_diff.tga using Guid(2f100804d373b9a4891c5326e7309b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e17ae873de496e0973c7b297459fd2') in 0.030064 seconds
+  Import took 0.035436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/tex_splash_falls.psd
+  artifactKey: Guid(bd662bb218cf15346a48356294d9b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/EFFECTS/tex_splash_falls.psd using Guid(bd662bb218cf15346a48356294d9b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd122ea25918a762a1483e354f09719') in 0.026912 seconds
+  Import took 0.031057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_diffuse.psd
+  artifactKey: Guid(52d7ec4473bede644b98c342d0bbac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_diffuse.psd using Guid(52d7ec4473bede644b98c342d0bbac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889f2bb8b27d8e3bcd71c46bdb53b878') in 0.027216 seconds
+  Import took 0.031630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_sandwet_diff.psd
+  artifactKey: Guid(1f44ad99be3ef0d4db3d435eed748e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_sandwet_diff.psd using Guid(1f44ad99be3ef0d4db3d435eed748e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0434b6e7a18916f0997fdc9bb6fc4d5') in 0.032933 seconds
+  Import took 0.038204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/MTree/Resources/Mtree/Sprites/TreeFunctionSprite.png
+  artifactKey: Guid(5f71f436cca5101489fbe40df8146a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Resources/Mtree/Sprites/TreeFunctionSprite.png using Guid(5f71f436cca5101489fbe40df8146a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1710f73f07888c651922f68317e90a4c') in 0.031110 seconds
+  Import took 0.035933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/MTree/Textures/Single Leafs/Leaf_Fern_C.png
+  artifactKey: Guid(ff8ca0aead29ba544acb25c72ad63476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Single Leafs/Leaf_Fern_C.png using Guid(ff8ca0aead29ba544acb25c72ad63476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8994e8aa69df49ed1369afe4eac4112d') in 0.053571 seconds
+  Import took 0.059070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock05_diff.tga
+  artifactKey: Guid(f7cad9a7f29fb0e4b818f0cbc465d001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock05_diff.tga using Guid(f7cad9a7f29fb0e4b818f0cbc465d001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c4a3dbe2374e1f43a7a226dfe98956') in 0.029150 seconds
+  Import took 0.035361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_tex_suimonologofx.png
+  artifactKey: Guid(c9f934724e613ca44a009e6dc56b4494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/textures/gui_tex_suimonologofx.png using Guid(c9f934724e613ca44a009e6dc56b4494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cc0daa3280bdf64ea91e208783a05f') in 0.020279 seconds
+  Import took 0.024730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock02_diff.tga
+  artifactKey: Guid(a8aa4d2df6f823e45beafc8df6bbf2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock02_diff.tga using Guid(a8aa4d2df6f823e45beafc8df6bbf2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd365cb017d6f487674751aedcecabb33') in 0.031279 seconds
+  Import took 0.035659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_DropEffects_height.psd
+  artifactKey: Guid(4bdbc7f26da16ff489bab4fecdfe35fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_DropEffects_height.psd using Guid(4bdbc7f26da16ff489bab4fecdfe35fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd334e6c2c75562cc641ea415fb4c7ab8') in 0.021750 seconds
+  Import took 0.025376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/MTree/Textures/Single Leafs/Leaf_Willow_N.png
+  artifactKey: Guid(0664f20bb2cf5c049bd7cad13e624e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MTree/Textures/Single Leafs/Leaf_Willow_N.png using Guid(0664f20bb2cf5c049bd7cad13e624e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33c020023f0e343aad4cf196a693824') in 0.035908 seconds
+  Import took 0.040143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Textures/Palm trees_diff.psd
+  artifactKey: Guid(3da15f3585ecfb146bb44cb5fdb2a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Textures/Palm trees_diff.psd using Guid(3da15f3585ecfb146bb44cb5fdb2a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59af033d51d181638533afa8fffa57e') in 0.032624 seconds
+  Import took 0.036357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_foamMask.psd
+  artifactKey: Guid(14c55ed649175884784db6c178f4e654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_foamMask.psd using Guid(14c55ed649175884784db6c178f4e654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b237324bb87307bfdc215aceb05eba2') in 0.042462 seconds
+  Import took 0.047486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_rock_diff.psd
+  artifactKey: Guid(c9c8928241a6e154fa2c5ade93dba77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/textures_terrain/tex_rock_diff.psd using Guid(c9c8928241a6e154fa2c5ade93dba77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3bb6d13f0d2236a87112fdb781a691') in 0.035362 seconds
+  Import took 0.039666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/suimono_cube_reflection.psd
+  artifactKey: Guid(c27d2f9a7fe1df7448a59cd7e8306390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/suimono_cube_reflection.psd using Guid(c27d2f9a7fe1df7448a59cd7e8306390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0d6a7c4347b94f2874f11289724154') in 0.045408 seconds
+  Import took 0.049506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Gizmos/gui_icon_fxobj.psd
+  artifactKey: Guid(85cdda794b69b5442b2f54b496cacb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/gui_icon_fxobj.psd using Guid(85cdda794b69b5442b2f54b496cacb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e977de3d02ab485f20a4c9be932afa') in 0.009793 seconds
+  Import took 0.014020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock04_diff.tga
+  artifactKey: Guid(30c6699c64c933842b15b42740530e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Rocks/Textures/rock04_diff.tga using Guid(30c6699c64c933842b15b42740530e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925dcc4b0556a8f0da5267e9dd69dc42') in 0.028215 seconds
+  Import took 0.033777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_falloff.psd
+  artifactKey: Guid(e18972d51c4910d499b05f09d48dc145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/TEXTURES/tex_falloff.psd using Guid(e18972d51c4910d499b05f09d48dc145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867d26066d98dc52af34c1bb909e3a2f') in 0.031989 seconds
+  Import took 0.036026 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001253 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.2 MB.
+System memory in use after: 184.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 4.104600 ms (FindLiveObjects: 0.442400 ms CreateObjectMapping: 0.186700 ms MarkObjects: 2.428000 ms  DeleteObjects: 1.045400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.3 MB.
+System memory in use after: 184.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 3.744500 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.305000 ms  DeleteObjects: 1.044500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.544 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.3 MB.
+System memory in use after: 184.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 3.808200 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.434600 ms  DeleteObjects: 1.060900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.3 MB.
+System memory in use after: 184.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 3.735000 ms (FindLiveObjects: 0.228600 ms CreateObjectMapping: 0.086500 ms MarkObjects: 2.335400 ms  DeleteObjects: 1.082900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
