@@ -80,3 +80,315 @@ Received Import Request.
 Start importing Assets/EasyRoads3D using Guid(21645d793e3011042b0fd84acde7b82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b8e9635d08520dfdfbe1bbe681f401') in 0.009962 seconds
   Import took 0.013209 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 3807.909129 seconds.
+  path: Assets/Scenes/scrap_scenes/easy charachter movement.unity
+  artifactKey: Guid(afac4f4f58563b04b82ab8ad0e4dde84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scrap_scenes/easy charachter movement.unity using Guid(afac4f4f58563b04b82ab8ad0e4dde84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6744c17cc8f8f57937b2b89f3e5208') in 0.018035 seconds
+  Import took 0.023837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.157857 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/example_scene.unity
+  artifactKey: Guid(fc7f75787a38d5a4d87712d5924810d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/14 - Visualize walkable ground/example_scene.unity using Guid(fc7f75787a38d5a4d87712d5924810d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42c815a161b293bd7c695624c22d628') in 0.010937 seconds
+  Import took 0.016229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.496153 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/example_scene.unity
+  artifactKey: Guid(ba97fc713be59c14090f39822f9c5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/example_scene.unity using Guid(ba97fc713be59c14090f39822f9c5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2637668f9920fc8ca561c4eb6867d786') in 0.003551 seconds
+  Import took 0.009344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/example_scene.unity
+  artifactKey: Guid(ba97fc713be59c14090f39822f9c5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/15 - Ladder Climbing/example_scene.unity using Guid(ba97fc713be59c14090f39822f9c5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2637668f9920fc8ca561c4eb6867d786') in 0.003295 seconds
+  Import took 0.006923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.089643 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/example_scene.unity
+  artifactKey: Guid(389d8068ae1adbc4b80e66a6bb86d266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/10 - Wall Grab and Wall Jump/example_scene.unity using Guid(389d8068ae1adbc4b80e66a6bb86d266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fed1c61baf29efe6d00625bad179b0') in 0.004003 seconds
+  Import took 0.008599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.358132 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/exampleScene.unity
+  artifactKey: Guid(9582c28ba48d35843b22a8dd087dd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/9 - Platforms (Animated platform example)/exampleScene.unity using Guid(9582c28ba48d35843b22a8dd087dd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4487b973d5d45c7d824e0785d918f7d6') in 0.011159 seconds
+  Import took 0.017420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.982541 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scenes/Playable Standard Demo.unity
+  artifactKey: Guid(a9a2748686c6ea249a32a177be86490b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scenes/Playable Standard Demo.unity using Guid(a9a2748686c6ea249a32a177be86490b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe3b407009cebcfd068d958dfa9b17c') in 0.012521 seconds
+  Import took 0.016482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.369004 seconds.
+  path: Assets/Easy Character Movement/Examples/Scenes/Demo.unity
+  artifactKey: Guid(86faedbf0f4304743ac2b606352f9a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Scenes/Demo.unity using Guid(86faedbf0f4304743ac2b606352f9a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6493aa8ed97f0fc140612328dcd0e7') in 0.016524 seconds
+  Import took 0.020341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.721385 seconds.
+  path: Assets/Packages/UniStorm Weather System/Scenes/Standard Demo.unity
+  artifactKey: Guid(59e86a37489d1fb49828bc76f5ffd2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/UniStorm Weather System/Scenes/Standard Demo.unity using Guid(59e86a37489d1fb49828bc76f5ffd2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a6111532537112e2eea229b585a37b') in 0.010110 seconds
+  Import took 0.015478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.597424 seconds.
+  path: Assets/Easy Character Movement/Examples/Scenes/Simple Demo.unity
+  artifactKey: Guid(3c937bf463563f34590c841436549683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Scenes/Simple Demo.unity using Guid(3c937bf463563f34590c841436549683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1b4db1b540cae2986030534f345f11') in 0.011257 seconds
+  Import took 0.016157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008994 seconds.
+  path: Assets/Easy Character Movement/Examples/Scenes/Simple Demo.unity
+  artifactKey: Guid(3c937bf463563f34590c841436549683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Scenes/Simple Demo.unity using Guid(3c937bf463563f34590c841436549683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1b4db1b540cae2986030534f345f11') in 0.003827 seconds
+  Import took 0.008837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.335717 seconds.
+  path: Assets/test Mtree.asset
+  artifactKey: Guid(59fe6e58b87b768458bb580fbe4ba829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test Mtree.asset using Guid(59fe6e58b87b768458bb580fbe4ba829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93019bdecbb428bea1a9b2094aa1a364') in 0.046099 seconds
+  Import took 0.050489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.820372 seconds.
+  path: Assets/Easy Character Movement/Examples/Scenes/2D Example.unity
+  artifactKey: Guid(b5b15b7ebd0f1af4d91972f75b2c80de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Scenes/2D Example.unity using Guid(b5b15b7ebd0f1af4d91972f75b2c80de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb813fe9f479559eb4d084975dbd8355') in 0.010056 seconds
+  Import took 0.016612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.494793 seconds.
+  path: Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example.unity
+  artifactKey: Guid(acd96f1ca3637b54387f1c5d3c920d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Scenes/Custom Agent Controller Example.unity using Guid(acd96f1ca3637b54387f1c5d3c920d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99be616640f7efdbc83ef77d8100c2c') in 0.010242 seconds
+  Import took 0.017170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.679054 seconds.
+  path: Assets/Easy Character Movement/Examples/Scenes/Custom Character Controller Examples.unity
+  artifactKey: Guid(9cb07b91a0ea98641aa836845884d9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Examples/Scenes/Custom Character Controller Examples.unity using Guid(9cb07b91a0ea98641aa836845884d9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040133933b374ac162cecb4288d27614') in 0.011072 seconds
+  Import took 0.018239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.965255 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/12 - Swimming/example_scene.unity
+  artifactKey: Guid(0013f34b228bdd14c96ed2b26a4aef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/12 - Swimming/example_scene.unity using Guid(0013f34b228bdd14c96ed2b26a4aef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99bdf6deb0b0f99c2de5c4e567bf8d0') in 0.003122 seconds
+  Import took 0.011186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.862225 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/example_scene.unity
+  artifactKey: Guid(05515dc24acdeb040a8f7734dc367f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/example_scene.unity using Guid(05515dc24acdeb040a8f7734dc367f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71debb1a8bcb32e5c7278b485d70fe28') in 0.005237 seconds
+  Import took 0.009913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001534 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/example_scene.unity
+  artifactKey: Guid(05515dc24acdeb040a8f7734dc367f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/8 - Orient Towards Ground Normals/example_scene.unity using Guid(05515dc24acdeb040a8f7734dc367f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71debb1a8bcb32e5c7278b485d70fe28') in 0.003349 seconds
+  Import took 0.007019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.718584 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/example_scene.unity
+  artifactKey: Guid(a71cbd047db7aa54c81de304a685745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/example_scene.unity using Guid(a71cbd047db7aa54c81de304a685745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663182b701e74c7c605f97df465a5f45') in 0.003822 seconds
+  Import took 0.012096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/example_scene.unity
+  artifactKey: Guid(a71cbd047db7aa54c81de304a685745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement/Walkthrough/13 - Over The Shoulder Camera Movement/example_scene.unity using Guid(a71cbd047db7aa54c81de304a685745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663182b701e74c7c605f97df465a5f45') in 0.004464 seconds
+  Import took 0.007848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1563.543010 seconds.
+  path: Assets/Easy Character Movement
+  artifactKey: Guid(d7a102cee78305f44b4df23ce0c74308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Character Movement using Guid(d7a102cee78305f44b4df23ce0c74308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a554096ac78782f89f445a3bdea1c60') in 0.010336 seconds
+  Import took 0.017689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.861817 seconds.
+  path: Assets/Characters/CharacterHouses
+  artifactKey: Guid(aab8893f4feb2df4e9f8506582a5ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/CharacterHouses using Guid(aab8893f4feb2df4e9f8506582a5ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cd644d85213861c7465451266bab0f') in 0.009084 seconds
+  Import took 0.013734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.253732 seconds.
+  path: Assets/Characters/CharacterHouses/GameObject.prefab
+  artifactKey: Guid(26cc3b32ddda26b41b3c40aeacfb9035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/CharacterHouses/GameObject.prefab using Guid(26cc3b32ddda26b41b3c40aeacfb9035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b100cf9b1eeb11cfa0a8da8c117a016') in 0.029646 seconds
+  Import took 0.032809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003501 seconds.
+  path: Assets/Characters/CharacterHouses/GameObject.prefab
+  artifactKey: Guid(26cc3b32ddda26b41b3c40aeacfb9035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/CharacterHouses/GameObject.prefab using Guid(26cc3b32ddda26b41b3c40aeacfb9035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b100cf9b1eeb11cfa0a8da8c117a016') in 0.005286 seconds
+  Import took 0.009735 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1685 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 183.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 3.185700 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.219200 ms  DeleteObjects: 0.631700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.3 MB.
+System memory in use after: 186.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2372.
+Total: 3.436100 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.105300 ms MarkObjects: 2.385400 ms  DeleteObjects: 0.696500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6354.001793 seconds.
+  path: Assets/Polybrush Data/Brush Settings/New Brush 1.asset
+  artifactKey: Guid(5e67645c0da5141429670b696f791143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polybrush Data/Brush Settings/New Brush 1.asset using Guid(5e67645c0da5141429670b696f791143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bf0cf9952104baedc49e02831e6f83') in 0.044932 seconds
+  Import took 0.049643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.619055 seconds.
+  path: Assets/Polybrush Data/Brush Settings/New Brush.asset
+  artifactKey: Guid(6840a05c0c96e564783f1ef5ec063537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polybrush Data/Brush Settings/New Brush.asset using Guid(6840a05c0c96e564783f1ef5ec063537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7b5179c50a23399a630ee8e3f2acf4') in 0.010698 seconds
+  Import took 0.015148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.079820 seconds.
+  path: Assets/Characters/CharacterHouses/Houses.prefab
+  artifactKey: Guid(26cc3b32ddda26b41b3c40aeacfb9035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/CharacterHouses/Houses.prefab using Guid(26cc3b32ddda26b41b3c40aeacfb9035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac40cf15b20799f3adda31bfef80f3be') in 0.043260 seconds
+  Import took 0.047358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.354173 seconds.
+  path: Assets/Characters/CharacterHouses/NewSurfaceShader.shader
+  artifactKey: Guid(1d246945ad4709445a7ddf2af9a82f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/CharacterHouses/NewSurfaceShader.shader using Guid(1d246945ad4709445a7ddf2af9a82f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41893850a3567636f3c885508661de87') in 0.014443 seconds
+  Import took 0.019008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001300 seconds.
+  path: Assets/Characters/CharacterHouses/NewSurfaceShader.shader
+  artifactKey: Guid(1d246945ad4709445a7ddf2af9a82f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/CharacterHouses/NewSurfaceShader.shader using Guid(1d246945ad4709445a7ddf2af9a82f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41893850a3567636f3c885508661de87') in 0.006634 seconds
+  Import took 0.011841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 882.499800 seconds.
+  path: Assets/Characters/CharacterHouses/Houses 1.prefab
+  artifactKey: Guid(5591bf0bd69314943bb439cbec31ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/CharacterHouses/Houses 1.prefab using Guid(5591bf0bd69314943bb439cbec31ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f5d6e9e82bba078cdb192c87caba90') in 0.013712 seconds
+  Import took 0.019693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 296.133821 seconds.
+  path: Assets/Characters/appartment.prefab
+  artifactKey: Guid(f873c6e6a503ca147a2967b1ede9e44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/appartment.prefab using Guid(f873c6e6a503ca147a2967b1ede9e44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a774f030986212636860a1a31f7fb6b') in 0.065698 seconds
+  Import took 0.071430 seconds .
+
