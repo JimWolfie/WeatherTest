@@ -11,6 +11,8 @@ namespace DialogEngine
         [SerializeField]
         public List<DialogNode> nodes = new List<DialogNode>();
 
+        Dictionary<string, DialogNode> nodeLookup = new Dictionary<string, DialogNode>();
+
 #if UNITY_EDITOR
         private void Awake()
         {
@@ -18,9 +20,20 @@ namespace DialogEngine
             {
                 nodes.Add(new DialogNode());
             }
+            OnValidate();
         }
 #endif
+        private void OnValidate()
+        {
+            nodeLookup.Clear();
+            foreach(DialogNode node in GetAllNodes())
+            {
+                nodeLookup[node.uniqueID] = node;
+            }
 
+        }
+           
+       
         public IEnumerable<DialogNode> GetAllNodes()
         {
             return nodes;
@@ -32,7 +45,19 @@ namespace DialogEngine
             
         }
 
-       
+        public IEnumerable<DialogNode> GetAllChildren(DialogNode parentNode)
+        {
+            
+            foreach(string childID in parentNode.cildren)
+            {
+                if(nodeLookup.ContainsKey(childID))
+                {
+                    yield return nodeLookup[childID];
+                }
+                
+            }
+            
+        }
     }
 
     [Serializable]

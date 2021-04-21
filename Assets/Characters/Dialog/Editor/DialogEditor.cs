@@ -64,13 +64,17 @@ namespace DialogEngine.Editor
                 ProcessEvents();
                 foreach(var node in selectedDialog.GetAllNodes())
                 {
-                    OnGUINode(node);
-
+                    DrawNode(node);
+                    
+                }
+                foreach(var node in selectedDialog.GetAllNodes())
+                {
+                    
+                    DrawConnections(node);
                 }
             }
-            
-
         }
+
 
         private void ProcessEvents()
         {
@@ -96,14 +100,15 @@ namespace DialogEngine.Editor
             }
         }
 
-        private void OnGUINode(DialogNode node)
+
+        private void DrawNode(DialogNode node)
         {
             GUILayout.BeginArea(node.rect, nodeStyle);
             EditorGUI.BeginChangeCheck();
 
-            EditorGUILayout.LabelField("Node: ", EditorStyles.whiteLabel);
+            
             string newText = EditorGUILayout.TextField(node.text);
-            string newUniqueID = EditorGUILayout.TagField(node.uniqueID);
+            
 
 
             if(EditorGUI.EndChangeCheck())
@@ -116,7 +121,26 @@ namespace DialogEngine.Editor
             GUILayout.EndArea();
         }
 
-         private DialogNode GetNodeAtPoint(Vector2 mousePosition)
+
+        private void DrawConnections(DialogNode node)
+        {
+            Vector3 startPosition = new Vector2(node.rect.xMax, node.rect.center.y);
+            foreach(DialogNode childNode in selectedDialog.GetAllChildren(node))
+            {
+                Vector3 endPosition = new Vector2(childNode.rect.xMin, childNode.rect.center.y);
+                Vector3 controlPointOffset = endPosition - startPosition;
+                controlPointOffset.y =0;
+                controlPointOffset.x *= .8f;
+                Handles.DrawBezier(
+                    startPosition, endPosition, 
+                    startPosition, endPosition, 
+                    Color.white, null, 4f);
+                
+            }
+        }
+
+
+        private DialogNode GetNodeAtPoint(Vector2 mousePosition)
         {
             DialogNode foundNode = null;
             foreach (DialogNode node in selectedDialog.GetAllNodes())
