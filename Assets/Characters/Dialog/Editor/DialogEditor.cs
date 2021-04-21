@@ -10,10 +10,14 @@ namespace DialogEngine.Editor
     public class DialogEditor: EditorWindow
     {
         Dialog selectedDialog = null;
+        [NonSerialized]
         GUIStyle nodeStyle;
-        
+        [NonSerialized]
         DialogNode draggingNode = null;
+        [NonSerialized]
         Vector2 draggingOffset;
+        [NonSerialized]
+        DialogNode creatingNode = null;
 
         [MenuItem("Window/Dialog Editor")]
         public static void ShowEditorWindow()
@@ -65,12 +69,16 @@ namespace DialogEngine.Editor
                 foreach(var node in selectedDialog.GetAllNodes())
                 {
                     DrawNode(node);
-                    
                 }
                 foreach(var node in selectedDialog.GetAllNodes())
                 {
-                    
                     DrawConnections(node);
+                }
+                if(creatingNode != null)
+                {
+                    Undo.RecordObject(selectedDialog, "Add Dialog Node");
+                    selectedDialog.CreateNode(creatingNode);
+                    creatingNode = null;
                 }
             }
         }
@@ -118,6 +126,12 @@ namespace DialogEngine.Editor
                 node.text = newText;
             }
 
+            if(GUILayout.Button("+"))
+            {
+                creatingNode = node;
+            }
+
+
             GUILayout.EndArea();
         }
 
@@ -133,7 +147,7 @@ namespace DialogEngine.Editor
                 controlPointOffset.x *= .8f;
                 Handles.DrawBezier(
                     startPosition, endPosition, 
-                    startPosition, endPosition, 
+                    startPosition+controlPointOffset, endPosition+controlPointOffset, 
                     Color.white, null, 4f);
                 
             }

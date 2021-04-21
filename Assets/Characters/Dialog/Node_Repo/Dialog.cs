@@ -18,9 +18,11 @@ namespace DialogEngine
         {
             if(nodes.Count == 0)
             {
-                nodes.Add(new DialogNode());
+                DialogNode rootNode = new DialogNode();
+                rootNode.uniqueID = Guid.NewGuid().ToString();
+                nodes.Add(rootNode);
             }
-            OnValidate();
+            //OnValidate();
         }
 #endif
         private void OnValidate()
@@ -58,6 +60,15 @@ namespace DialogEngine
             }
             
         }
+
+        public void CreateNode(DialogNode parent)
+        {
+            DialogNode newNode = new DialogNode();
+            newNode.uniqueID = Guid.NewGuid().ToString();
+            parent.cildren.Add(newNode.uniqueID);
+            nodes.Add(newNode);
+            OnValidate();
+        }
     }
 
     [Serializable]
@@ -65,7 +76,7 @@ namespace DialogEngine
     {
         public string uniqueID;
         public string text;
-        public string[] cildren;
+        public List<string> cildren = new List<string>();
         public Rect rect = new Rect(0,0, 200,100);
     }
 
