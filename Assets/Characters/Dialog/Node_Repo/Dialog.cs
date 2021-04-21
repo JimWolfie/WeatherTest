@@ -69,6 +69,21 @@ namespace DialogEngine
             nodes.Add(newNode);
             OnValidate();
         }
+
+        public void DeleteNode(DialogNode nodeToDelete)
+        {
+            nodes.Remove(nodeToDelete);
+            OnValidate();
+            NodeVasectomy(nodeToDelete);
+        }
+
+        private void NodeVasectomy(DialogNode nodeToDelete)
+        {
+            foreach(DialogNode node in GetAllNodes())
+            {
+                node.cildren.Remove(nodeToDelete.uniqueID);
+            }
+        }
     }
 
     [Serializable]
