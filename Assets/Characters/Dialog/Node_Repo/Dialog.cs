@@ -89,7 +89,7 @@ namespace DialogEngine
             if(parent!= null)
             {
                 parent.AddChild(newNode.name);
-                
+                //AssetDatabase.AddObjectToAsset(this, this);
                 newNode.SetPlayerSpeaking(!parent.IsPlayerSpeaking());
                 newNode.SetPosition(parent.GetRect().position +newNodeOffset);
             }
