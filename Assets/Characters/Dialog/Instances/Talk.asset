@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8491037698767916915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 7705bb7d-f295-46c2-8803-7d9e806ebde6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Sure! i'll see you tonight
+  cildren: []
+  rect:
+    serializedVersion: 2
+    x: 1073
+    y: 65
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: walkoff
+--- !u!114 &-7532025872137145134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 8e845950-e4ef-46e7-b38b-65ef311ce119
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: sup u
+  cildren:
+  - 69d2568f-5197-42d6-a787-56f4db4795ed
+  rect:
+    serializedVersion: 2
+    x: 269
+    y: 103
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &-4141599061931504766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: b637db66-397b-426b-a265-6c6062f8d467
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'lol someone''s excited '
+  cildren:
+  - f9029a3f-3817-43e8-93a9-c604aa15af64
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab98c339a97717240a3740fe2d96f155, type: 3}
+  m_Name: Talk
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8149781964376421785}
+  - {fileID: -4141599061931504766}
+  - {fileID: -7532025872137145134}
+  - {fileID: 1934752890151120246}
+  - {fileID: 238321726085011109}
+  - {fileID: 5705789769012726528}
+  - {fileID: 625777203245233501}
+  - {fileID: 4827474509325986330}
+  - {fileID: 1768244386470155261}
+  - {fileID: -8491037698767916915}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &238321726085011109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 69d2568f-5197-42d6-a787-56f4db4795ed
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: oh nothing much, just some drone flying
+  cildren:
+  - d2d0a273-76d5-4181-a718-656f1bf84682
+  - dd93ac1d-3e88-4b15-984a-bd68177b90ca
+  rect:
+    serializedVersion: 2
+    x: 491
+    y: 107
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: drone
+--- !u!114 &625777203245233501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 064aae11-4ced-40e8-8ee4-e603ade6b2ad
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: it has hasn't it ?
+  cildren:
+  - ee3dbabe-4139-445b-b81f-14f7de77ae07
+  rect:
+    serializedVersion: 2
+    x: 777
+    y: -7
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &1768244386470155261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: ee3dbabe-4139-445b-b81f-14f7de77ae07
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ikr. anyway you should talk to everyone else while they're still availible.
+    i'll talk to you tonight
+  cildren: []
+  rect:
+    serializedVersion: 2
+    x: 1109
+    y: 207
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: letgo
+--- !u!114 &1934752890151120246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: f9029a3f-3817-43e8-93a9-c604aa15af64
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yeah its been half a year
+  cildren:
+  - d2d0a273-76d5-4181-a718-656f1bf84682
+  - 064aae11-4ced-40e8-8ee4-e603ade6b2ad
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: 0
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &4827474509325986330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: dd93ac1d-3e88-4b15-984a-bd68177b90ca
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: that's super rad
+  cildren:
+  - ee3dbabe-4139-445b-b81f-14f7de77ae07
+  rect:
+    serializedVersion: 2
+    x: 767
+    y: 169
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &5705789769012726528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: d2d0a273-76d5-4181-a718-656f1bf84682
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'how i get caught uup with everyone '
+  cildren:
+  - 7705bb7d-f295-46c2-8803-7d9e806ebde6
+  rect:
+    serializedVersion: 2
+    x: 771
+    y: 73
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &8149781964376421785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 1935e99a-3dd0-4733-855c-725f0d2a747e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Hey there '
+  cildren:
+  - b637db66-397b-426b-a265-6c6062f8d467
+  - 8e845950-e4ef-46e7-b38b-65ef311ce119
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 

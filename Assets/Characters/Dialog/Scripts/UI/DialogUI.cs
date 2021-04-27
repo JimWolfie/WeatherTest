@@ -34,7 +34,7 @@ namespace ui
         void UpdateUI()
         {
             gameObject.SetActive(playerConversant.IsActive());
-            if(playerConversant.IsActive())
+            if(!playerConversant.IsActive())
             {
                 return;
             }

@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7960291669570799710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 824d6878-c596-4775-a692-9f5ccfad55bf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Walk Up
+  cildren:
+  - 770b3348-1eb3-4f9e-a4be-68a7cb032e6d
+  rect:
+    serializedVersion: 2
+    x: 353
+    y: 111
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: WalkUp
+--- !u!114 &-6408507983309276452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 0648e08d-fe58-45fa-b973-1e5e4b255048
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Wait
+  cildren:
+  - a7e848e9-8f93-4f62-a139-c12c3d8222ab
+  rect:
+    serializedVersion: 2
+    x: 333
+    y: 197
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: Wait
+--- !u!114 &-2347972429568753542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 881eaffe-4624-44e7-bb10-f7acb00acabe
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I'll come towards you
+  cildren: []
+  rect:
+    serializedVersion: 2
+    x: 837
+    y: 335
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &-212737849644340734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 2a5bd81a-3044-4ca6-a51c-901eeaeb0867
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: HEEEEYYYYYY
+  cildren:
+  - 824d6878-c596-4775-a692-9f5ccfad55bf
+  - 0648e08d-fe58-45fa-b973-1e5e4b255048
+  - 18b0294e-3961-4d48-9dd4-f52ee9ab31e0
+  rect:
+    serializedVersion: 2
+    x: 85
+    y: 117
+    width: 200
+    height: 100
+  onEntryAction: SpawnBirb
+  onExitAction: PanCamera
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab98c339a97717240a3740fe2d96f155, type: 3}
+  m_Name: First Meet
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -212737849644340734}
+  - {fileID: -7960291669570799710}
+  - {fileID: -6408507983309276452}
+  - {fileID: 5328572799108234587}
+  - {fileID: 2682674464587471074}
+  - {fileID: -2347972429568753542}
+  - {fileID: 4682514369198349997}
+  - {fileID: 8330450989862680210}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2682674464587471074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 81585c6a-4d18-4fe4-be16-2c2205b530b7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: aww u
+  cildren:
+  - 881eaffe-4624-44e7-bb10-f7acb00acabe
+  rect:
+    serializedVersion: 2
+    x: 586
+    y: 334
+    width: 200
+    height: 100
+  onEntryAction: Blush
+  onExitAction: 
+--- !u!114 &4682514369198349997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: a7e848e9-8f93-4f62-a139-c12c3d8222ab
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: omg silly get over here
+  cildren: []
+  rect:
+    serializedVersion: 2
+    x: 589
+    y: 228
+    width: 200
+    height: 100
+  onEntryAction: roll
+  onExitAction: 
+--- !u!114 &5328572799108234587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 18b0294e-3961-4d48-9dd4-f52ee9ab31e0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Wave
+  cildren:
+  - 81585c6a-4d18-4fe4-be16-2c2205b530b7
+  rect:
+    serializedVersion: 2
+    x: 349
+    y: 333
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: Wave
+--- !u!114 &8330450989862680210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 770b3348-1eb3-4f9e-a4be-68a7cb032e6d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ur back!
+  cildren: []
+  rect:
+    serializedVersion: 2
+    x: 596
+    y: 101
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 

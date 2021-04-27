@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8807299825230630234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 7d9db9ab-9c96-4ab7-bab7-3d651dbe3c12
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ' mmmm i bet. '
+  cildren:
+  - 24ed65aa-5bb8-40e2-9637-5c7196bd6fdd
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: 0
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &-8059670186457134331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 028eb6d4-cb84-43a2-8a9d-60e6122d68e6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: oh good enough. it was good to see everyone
+  cildren:
+  - 7d9db9ab-9c96-4ab7-bab7-3d651dbe3c12
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &-7872173453674520252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 8d8742f7-bfc9-4549-944b-0f0fb8ae8aa1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'how was your day '
+  cildren:
+  - 028eb6d4-cb84-43a2-8a9d-60e6122d68e6
+  - 5eeb379e-60f9-4ecc-8289-929c22e60bc1
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &-6789082870734124685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 9cdc2128-52f2-47f1-ba94-db1a75c6a708
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: IDK its kinda boring lol
+  cildren: []
+  rect:
+    serializedVersion: 2
+    x: 1017
+    y: 105
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: boring
+--- !u!114 &-4733373202480413901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 24ed65aa-5bb8-40e2-9637-5c7196bd6fdd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'How about you tell me what happened with you. '
+  cildren:
+  - 1bd522db-d951-49cc-b3bf-1290d5303ec5
+  - 9cdc2128-52f2-47f1-ba94-db1a75c6a708
+  rect:
+    serializedVersion: 2
+    x: 750
+    y: 4
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 
+--- !u!114 &-4399177145753225584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 1bd522db-d951-49cc-b3bf-1290d5303ec5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Sure
+  cildren: []
+  rect:
+    serializedVersion: 2
+    x: 1000
+    y: 4
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: eager
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab98c339a97717240a3740fe2d96f155, type: 3}
+  m_Name: Nightime
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7872173453674520252}
+  - {fileID: -8059670186457134331}
+  - {fileID: 3773171742904393994}
+  - {fileID: -8807299825230630234}
+  - {fileID: -4733373202480413901}
+  - {fileID: -4399177145753225584}
+  - {fileID: -6789082870734124685}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3773171742904393994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 5eeb379e-60f9-4ecc-8289-929c22e60bc1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: everyone has changed soo much
+  cildren:
+  - 7d9db9ab-9c96-4ab7-bab7-3d651dbe3c12
+  rect:
+    serializedVersion: 2
+    x: 253
+    y: 98
+    width: 200
+    height: 100
+  onEntryAction: 
+  onExitAction: 

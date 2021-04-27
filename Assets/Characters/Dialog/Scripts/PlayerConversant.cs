@@ -24,21 +24,26 @@ namespace DialogEngine
 
         public void StartDialog(Dialog newDialog, Ai_Conversant newConversant)
         {
-            ai_Conversant = newConversant;
+           
             currentDialog = newDialog;
-            currentNode = currentDialog.GetRootNode();
             TriggerEnterActions();
+            ai_Conversant = newConversant;
+            currentNode = currentDialog.GetRootNode();
+            
             onConversationUpdated();
         }
 
         public void Quit()
         {
+            
             currentDialog = null;
-            TriggerExitActions();
+            
             currentNode = null;
+            TriggerExitActions();
             isChoosing = false;
             ai_Conversant = null;
-           onConversationUpdated();
+            
+            onConversationUpdated();
         }
 
         public bool IsActive()
@@ -66,10 +71,10 @@ namespace DialogEngine
 
         public string GetCurrentConversantName()
         {
-            if(isChoosing)
+            if(IsChoosing())
             {
                 return playerName;
-            }else
+            }else 
             {
                 return ai_Conversant.GetName();
             }
@@ -133,7 +138,7 @@ namespace DialogEngine
             if(currentNode.OnEnterAction()!=""){return;}
             foreach(Dialog_Trigger trigger in ai_Conversant.GetComponents<Dialog_Trigger>())
             {
-                trigger.Trigger();
+                Debug.Log(action); //trigger.Trigger(action);
             }
 
         }
