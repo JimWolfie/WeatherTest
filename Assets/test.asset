@@ -18,8 +18,8 @@ MonoBehaviour:
   - c1b005bf-acd4-4858-be21-1cc0bfcc78c9
   rect:
     serializedVersion: 2
-    x: 431
-    y: 161
+    x: 336
+    y: 122
     width: 200
     height: 100
 --- !u!114 &-5526241391620357449
@@ -36,12 +36,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
   text: aqlkna'i[snbrfda
-  cildren:
-  - 4197b9ab-6e86-4b8b-af05-7235b96540ec
+  cildren: []
   rect:
     serializedVersion: 2
-    x: 681
-    y: 161
+    x: 744
+    y: 91
     width: 200
     height: 100
 --- !u!114 &11400000
@@ -60,8 +59,9 @@ MonoBehaviour:
   - {fileID: 735916867451537062}
   - {fileID: -7779764271430455800}
   - {fileID: 3252736479948273742}
-  - {fileID: 2789378557825019222}
   - {fileID: -5526241391620357449}
+  - {fileID: 769139533260772850}
+  - {fileID: 1402540081806580298}
   newNodeOffset: {x: 250, y: 0}
 --- !u!114 &735916867451537062
 MonoBehaviour:
@@ -82,11 +82,11 @@ MonoBehaviour:
   - 68e72801-c8c5-43b8-9209-d3fe191bef81
   rect:
     serializedVersion: 2
-    x: -57
-    y: 15
+    x: 74
+    y: 141
     width: 200
     height: 100
---- !u!114 &2789378557825019222
+--- !u!114 &769139533260772850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,15 +96,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
-  m_Name: 4197b9ab-6e86-4b8b-af05-7235b96540ec
+  m_Name: 70ff5971-811b-495e-9dab-1a034714a054
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: lets go
+  text: weeee
   cildren: []
   rect:
     serializedVersion: 2
-    x: 731
-    y: 276
+    x: 571
+    y: 290
+    width: 200
+    height: 100
+--- !u!114 &1402540081806580298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54c6e8c3448954439ba2aee5b015354, type: 3}
+  m_Name: 16a79820-ce6f-4ded-b634-9fd63f06f17a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: i see
+  cildren:
+  - c1b005bf-acd4-4858-be21-1cc0bfcc78c9
+  rect:
+    serializedVersion: 2
+    x: 571
+    y: 193
     width: 200
     height: 100
 --- !u!114 &3252736479948273742
@@ -122,10 +144,11 @@ MonoBehaviour:
   isPlayerSpeaking: 1
   text: hahahha
   cildren:
-  - 4197b9ab-6e86-4b8b-af05-7235b96540ec
+  - 70ff5971-811b-495e-9dab-1a034714a054
+  - 16a79820-ce6f-4ded-b634-9fd63f06f17a
   rect:
     serializedVersion: 2
-    x: 432
-    y: 291
+    x: 328
+    y: 219
     width: 200
     height: 100

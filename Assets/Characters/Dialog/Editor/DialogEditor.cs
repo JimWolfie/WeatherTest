@@ -240,7 +240,7 @@ namespace DialogEngine.Editor
                 controlPointOffset.x *= .8f;
                 Handles.DrawBezier(
                     startPosition, endPosition, 
-                    startPosition+controlPointOffset, endPosition+controlPointOffset, 
+                    startPosition+controlPointOffset, endPosition-controlPointOffset, 
                     Color.white, null, 4f);
                 
             }
