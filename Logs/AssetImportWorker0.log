@@ -1793,3 +1793,77 @@ System memory in use after: 212.5 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2636.
 Total: 3.624500 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.593500 ms  DeleteObjects: 0.655400 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 3052.788571 seconds.
+  path: Assets/Characters/Dialog/Instances/First Meet.asset
+  artifactKey: Guid(6ec42e48bb3d7f943bd13431f22cc557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Dialog/Instances/First Meet.asset using Guid(6ec42e48bb3d7f943bd13431f22cc557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4967e7adb3e21091d203cf09b20edbdf') in 0.047739 seconds
+  Import took 0.055627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.416050 seconds.
+  path: Assets/Characters/Dialog/Instances/Smaug.asset
+  artifactKey: Guid(618fc1ce894536243869f564d8c295c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Dialog/Instances/Smaug.asset using Guid(618fc1ce894536243869f564d8c295c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at DialogEngine.Dialog.OnValidate () [0x00020] in C:\Users\nlind\Desktop\WeatherTest\Assets\Characters\Dialog\Node_Repo\Dialog.cs:25 
+
+(Filename: Assets/Characters/Dialog/Node_Repo/Dialog.cs Line: 25)
+
+ -> (artifact id: 'd4e7e85e3c13f3e6e461c4fa481d3772') in 0.017927 seconds
+  Import took 0.024219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005696 seconds.
+  path: Assets/Characters/Dialog/Instances/Smaug.asset
+  artifactKey: Guid(618fc1ce894536243869f564d8c295c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Dialog/Instances/Smaug.asset using Guid(618fc1ce894536243869f564d8c295c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at DialogEngine.Dialog.OnValidate () [0x00020] in C:\Users\nlind\Desktop\WeatherTest\Assets\Characters\Dialog\Node_Repo\Dialog.cs:25 
+
+(Filename: Assets/Characters/Dialog/Node_Repo/Dialog.cs Line: 25)
+
+ -> (artifact id: 'd4e7e85e3c13f3e6e461c4fa481d3772') in 0.005225 seconds
+  Import took 0.010876 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001112 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1881 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.9 MB.
+System memory in use after: 212.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2639.
+Total: 4.069300 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.091100 ms MarkObjects: 2.781900 ms  DeleteObjects: 0.851900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13010.664495 seconds.
+  path: Assets/Characters/trees/OptimizedTree.prefab
+  artifactKey: Guid(597877fa51d25e74eb42c20d7aca5a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/trees/OptimizedTree.prefab using Guid(597877fa51d25e74eb42c20d7aca5a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cd94be2c38290204a0ac6dd69dd25c') in 0.115193 seconds
+  Import took 0.121122 seconds .
+
