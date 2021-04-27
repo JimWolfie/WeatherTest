@@ -11,27 +11,34 @@ namespace DialogEngine
 
     public class PlayerConversant : MonoBehaviour
     {
-        [SerializeField] Dialog testDialog;
+        //[SerializeField] Dialog testDialog;
     
         Dialog currentDialog;
         DialogNode currentNode= null;
+        Ai_Conversant ai_Conversant = null;
         bool isChoosing = false;
 
+        [SerializeField]string playerName;
+
         public event Action onConversationUpdated;
-        
-        IEnumerator Start()
+
+        public void StartDialog(Dialog newDialog, Ai_Conversant newConversant)
         {
-            yield return new WaitForSeconds(2);
-            StartDialog(testDialog);
+            ai_Conversant = newConversant;
+            currentDialog = newDialog;
+            currentNode = currentDialog.GetRootNode();
+            TriggerEnterActions();
             onConversationUpdated();
         }
 
         public void Quit()
         {
             currentDialog = null;
+            TriggerExitActions();
             currentNode = null;
             isChoosing = false;
-            onConversationUpdated();
+            ai_Conversant = null;
+           onConversationUpdated();
         }
 
         public bool IsActive()
@@ -39,12 +46,7 @@ namespace DialogEngine
             return(currentDialog != null);
             
         }
-        public void StartDialog(Dialog newDialog)
-        {
-            currentDialog = newDialog;
-            currentNode = currentDialog.GetRootNode();
-            onConversationUpdated();
-        }
+       
 
         public bool IsChoosing()
         {
@@ -62,6 +64,18 @@ namespace DialogEngine
 
         }
 
+        public string GetCurrentConversantName()
+        {
+            if(isChoosing)
+            {
+                return playerName;
+            }else
+            {
+                return ai_Conversant.GetName();
+            }
+
+        }
+
         public IEnumerable<DialogNode> GetChoices()
         {
             return currentDialog.GetPlayerChildren(currentNode);
@@ -70,6 +84,7 @@ namespace DialogEngine
         public void SelectChoice(DialogNode chosenNode)
         {
             currentNode = chosenNode;
+            TriggerEnterActions();
             isChoosing = false;
             Next();
 
@@ -81,13 +96,16 @@ namespace DialogEngine
             if(numPlayerResponses > 0)
             {
                 isChoosing = true;
+                TriggerExitActions();
                 onConversationUpdated();
                 return;
             }
 
             DialogNode[] children = currentDialog.GetAIChildren(currentNode).ToArray();
             int randomIndex = UnityEngine.Random.Range(0, children.Length);
+            TriggerExitActions();
             currentNode= children[randomIndex];
+            TriggerEnterActions();
             onConversationUpdated();
         }
         public bool HasNext()
@@ -95,5 +113,30 @@ namespace DialogEngine
             return currentDialog.GetAllChildren(currentNode).Count()>0;
         }
 
+        private void TriggerEnterActions()
+        {
+            if(currentNode!=null)
+            {
+                TriggerAction(currentNode.OnEnterAction());
+            }
+        }
+        private void TriggerExitActions()
+        {
+            if(currentNode!=null)
+            {
+                TriggerAction(currentNode.OnExitAction());
+            }
+        }
+
+        private void TriggerAction(string action)
+        {
+            if(currentNode.OnEnterAction()!=""){return;}
+            foreach(Dialog_Trigger trigger in ai_Conversant.GetComponents<Dialog_Trigger>())
+            {
+                trigger.Trigger();
+            }
+
+        }
+       
     }
 }

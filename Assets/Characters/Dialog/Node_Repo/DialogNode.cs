@@ -13,6 +13,8 @@ namespace DialogEngine
         [SerializeField] private string text;
         [SerializeField] private List<string> cildren = new List<string>();
         [SerializeField] private Rect rect = new Rect(0, 0, 200, 100);
+        [SerializeField] string onEntryAction;
+        [SerializeField] string onExitAction;
 
         public Rect GetRect()
         {
@@ -29,6 +31,14 @@ namespace DialogEngine
         public bool IsPlayerSpeaking()
         {
             return isPlayerSpeaking;
+        }
+        public string OnEnterAction()
+        {
+            return onEntryAction;
+        }
+        public string OnExitAction()
+        {
+            return onExitAction;
         }
 
 #if UNITY_EDITOR
