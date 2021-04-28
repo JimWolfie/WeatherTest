@@ -10,7 +10,7 @@ namespace RPG.Control
 {
     public class PlayerController : MonoBehaviour
     {
-        //Health health;
+        Health health;
 
         [System.Serializable]
         struct CursorMapping
@@ -27,21 +27,21 @@ namespace RPG.Control
         bool isDraggingUI = false;
 
         private void Awake() {
-            //health = GetComponent<Health>();
+            health = GetComponent<Health>();
         }
 
         private void Update()
         {
             if (InteractWithUI()) return;
-            /*
+            
             if (health.IsDead()) 
             {
                 SetCursor(CursorType.None);
                 return;
-            }*/
+            }
 
             if (InteractWithComponent()) return;
-            //if (InteractWithMovement()) return;
+            if (InteractWithMovement()) return;
 
             SetCursor(CursorType.None);
         }
