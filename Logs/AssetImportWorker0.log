@@ -336,3 +336,4 @@ Received Import Request.
 Start importing Assets/Characters/TowsPersonOLd.prefab using Guid(d674fb7335624be4c97b5b157e6c6bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abdc1a535d7cb62cf023dcd7594f589') in 0.075283 seconds
   Import took 0.081428 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
