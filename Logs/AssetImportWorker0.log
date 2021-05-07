@@ -15,11 +15,11 @@ C:/Users/nlind/Desktop/WeatherTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50128
+63568
 Successfully changed project path to: C:/Users/nlind/Desktop/WeatherTest
 C:/Users/nlind/Desktop/WeatherTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 67.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,35 +35,35 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003936 seconds.
+Registered in 0.124970 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 91.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.780 seconds
+- Completed reload, in  5.505 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002550 seconds.
+Registered in 0.089148 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
+- Completed reload, in  3.443 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
 Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
@@ -71,269 +71,12 @@ System memory in use before: 205.9 MB.
 System memory in use after: 204.5 MB.
 
 Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2483.
-Total: 3.340600 ms (FindLiveObjects: 0.362500 ms CreateObjectMapping: 0.150900 ms MarkObjects: 2.104400 ms  DeleteObjects: 0.721700 ms)
+Total: 4.399300 ms (FindLiveObjects: 0.605600 ms CreateObjectMapping: 0.339300 ms MarkObjects: 2.716400 ms  DeleteObjects: 0.736700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX
-  artifactKey: Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX using Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1557874a1bfe047f5334bba3513406') in 0.214811 seconds
-  Import took 0.219153 seconds .
+  path: Assets/Scenes/scrap_scenes/easy charachter movement.unity
+  artifactKey: Guid(afac4f4f58563b04b82ab8ad0e4dde84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scrap_scenes/easy charachter movement.unity using Guid(afac4f4f58563b04b82ab8ad0e4dde84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a186dd2d9a44bea7b7b17689dad4c3') in 0.011948 seconds
+  Import took 0.018409 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 82.698922 seconds.
-  path: Assets/Characters/Animations/Player_Controller_animation.controller
-  artifactKey: Guid(49500eac65d94f14a87eb5ee24377539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Animations/Player_Controller_animation.controller using Guid(49500eac65d94f14a87eb5ee24377539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357c74e3e80442b318427b3b01b2a515') in 0.022681 seconds
-  Import took 0.027410 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001291 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1881 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.4 MB.
-System memory in use after: 212.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2497.
-Total: 3.070400 ms (FindLiveObjects: 0.220800 ms CreateObjectMapping: 0.075300 ms MarkObjects: 2.152400 ms  DeleteObjects: 0.620600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001349 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.315 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1881 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.4 MB.
-System memory in use after: 212.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2500.
-Total: 5.531600 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.189300 ms MarkObjects: 4.160400 ms  DeleteObjects: 0.740800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001683 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1881 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.5 MB.
-System memory in use after: 212.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2503.
-Total: 3.586300 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.494200 ms  DeleteObjects: 0.752700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 381.255472 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/README - Usage Rights for these assets 1.txt
-  artifactKey: Guid(5438d5d2b89427543b461df466253b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/README - Usage Rights for these assets 1.txt using Guid(5438d5d2b89427543b461df466253b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69fa0f81a42da2f9a92f9c226d10f47') in 0.023414 seconds
-  Import took 0.028248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.468496 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX
-  artifactKey: Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX using Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa0511bbf423c0fc84809b412908526') in 0.089657 seconds
-  Import took 0.094160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.927098 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX
-  artifactKey: Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX using Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a621a410a34fd045ebb0fa97d13114') in 0.026091 seconds
-  Import took 0.037288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.072069 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX
-  artifactKey: Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX using Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d6c04dec66ce2e372a8bcd170ce2ae') in 0.036879 seconds
-  Import took 0.044725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014641 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX
-  artifactKey: Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX using Guid(1315bcd7509173f44bc6655b2673dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d6c04dec66ce2e372a8bcd170ce2ae') in 0.039827 seconds
-  Import took 0.046986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 352.332730 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX
-  artifactKey: Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX using Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a6c5de63938b0e0d67e93637415bbe') in 0.032113 seconds
-  Import took 0.037396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.783905 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX
-  artifactKey: Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX using Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c5d1c98cf5a936c246bfbb7a5ed111') in 0.034837 seconds
-  Import took 0.043166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1507.732219 seconds.
-  path: Assets/Asset Packs/Fantasy RPG UI Sample
-  artifactKey: Guid(3bee622a78142b4488c248effeb0b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Fantasy RPG UI Sample using Guid(3bee622a78142b4488c248effeb0b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87520762e050b8d8d489d663ce2187af') in 0.011271 seconds
-  Import took 0.016831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.228539 seconds.
-  path: Assets/Asset Packs/Sword and Shield Pack
-  artifactKey: Guid(cbcf4ffc8517b944d9e4907b957a29f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Sword and Shield Pack using Guid(cbcf4ffc8517b944d9e4907b957a29f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391d59b44903fa245a6d3790315f754f') in 0.009805 seconds
-  Import took 0.015936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.804753 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Sword
-  artifactKey: Guid(3af5fb3876442594c9546c55db1df2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Sword using Guid(3af5fb3876442594c9546c55db1df2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb903095870fac775680b6298a4b34b') in 0.010330 seconds
-  Import took 0.017370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.461379 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Item
-  artifactKey: Guid(e430ca35234f3724cbe17dbd01a43362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Item using Guid(e430ca35234f3724cbe17dbd01a43362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5d646596e43844f43f96f9ae554584') in 0.009551 seconds
-  Import took 0.015429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.998908 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Sword/RPG-Character@Sword-Attack-R6.FBX
-  artifactKey: Guid(58f2909dff975b54c8395d479180996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Sword/RPG-Character@Sword-Attack-R6.FBX using Guid(58f2909dff975b54c8395d479180996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bd66df6d24f18872f247235d678b87') in 0.059886 seconds
-  Import took 0.066620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.809789 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed
-  artifactKey: Guid(315080b543f213e43b41dfccde30996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed using Guid(315080b543f213e43b41dfccde30996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be05bbf0f25aa678329976abd33fbf69') in 0.009335 seconds
-  Import took 0.015697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.067442 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX
-  artifactKey: Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX using Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427a782190c9466ab3e5291725ecbfa1') in 0.032523 seconds
-  Import took 0.038663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.061130 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX
-  artifactKey: Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX using Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d333ab5572744cf97dcb3efed7ce42c') in 0.027862 seconds
-  Import took 0.033367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.138410 seconds.
-  path: Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX
-  artifactKey: Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Animations by Explosive/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX using Guid(69f3b1b43eb337548a8633b7b82d6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63991d43c5381173557826f28bf5de2e') in 0.027573 seconds
-  Import took 0.035516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1481.336299 seconds.
-  path: Assets/Characters/PlayerPrefab.prefab
-  artifactKey: Guid(2b3c6963af8556b4b91f58dd565ec822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/PlayerPrefab.prefab using Guid(2b3c6963af8556b4b91f58dd565ec822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb8b4a7434b0ddbda2f0f120935cfee') in 0.279734 seconds
-  Import took 0.285391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.550268 seconds.
-  path: Assets/Characters/TownsPerson.prefab
-  artifactKey: Guid(523080a0c71bf524fa63893ab142117b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/TownsPerson.prefab using Guid(523080a0c71bf524fa63893ab142117b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b35adc1b2f0342e8d571e48ba4da69d') in 0.079861 seconds
-  Import took 0.087623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.723450 seconds.
-  path: Assets/Characters/TowsPersonOLd.prefab
-  artifactKey: Guid(d674fb7335624be4c97b5b157e6c6bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/TowsPersonOLd.prefab using Guid(d674fb7335624be4c97b5b157e6c6bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abdc1a535d7cb62cf023dcd7594f589') in 0.075283 seconds
-  Import took 0.081428 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
