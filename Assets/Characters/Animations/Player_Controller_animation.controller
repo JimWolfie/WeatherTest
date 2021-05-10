@@ -134,7 +134,7 @@ AnimatorController:
   m_Name: Player_Controller_animation
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: fowardSpeed
+  - m_Name: forwardSpeed
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -285,7 +285,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Horizontal
     m_Mirror: 0
-  m_BlendParameter: fowardSpeed
+  m_BlendParameter: forwardSpeed
   m_BlendParameterY: Vertical
   m_MinThreshold: 0.0002078607
   m_MaxThreshold: 3.9763076
