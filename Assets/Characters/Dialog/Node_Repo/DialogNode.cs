@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using RPG.Core;
 using UnityEditor;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ namespace DialogEngine
         [SerializeField] private Rect rect = new Rect(0, 0, 200, 100);
         [SerializeField] string onEntryAction;
         [SerializeField] string onExitAction;
+        [SerializeField] Condition condition;
 
         public Rect GetRect()
         {
@@ -39,6 +41,10 @@ namespace DialogEngine
         public string OnExitAction()
         {
             return onExitAction;
+        }
+        public bool CheckCondition(IEnumerable<IPredicateEvaluator> evaluators)
+        {
+           return  condition.Check(evaluators);
         }
 
 #if UNITY_EDITOR
@@ -79,7 +85,9 @@ namespace DialogEngine
             isPlayerSpeaking = isSpeaking;
             EditorUtility.SetDirty(this);
         }
-       
+
+        
+
 
 #endif
 

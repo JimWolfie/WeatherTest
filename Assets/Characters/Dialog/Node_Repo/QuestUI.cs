@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class QuestUI : MonoBehaviour
 {
-  [SerializeField]public Quest quest;
+  //[SerializeField]public Quest quest;
 
     private void Start()
     {
-        foreach(string s in quest.GetTasks())
+        //foreach(string s in quest.GetTasks())
         {
 
         }

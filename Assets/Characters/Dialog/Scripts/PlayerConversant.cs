@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using RPG.Core;
 
 namespace DialogEngine
 {
@@ -37,9 +38,9 @@ namespace DialogEngine
         {
             
             currentDialog = null;
-            
-            currentNode = null;
             TriggerExitActions();
+            currentNode = null;
+            
             isChoosing = false;
             ai_Conversant = null;
             
@@ -83,7 +84,7 @@ namespace DialogEngine
 
         public IEnumerable<DialogNode> GetChoices()
         {
-            return currentDialog.GetPlayerChildren(currentNode);
+            return FilterOnCondition(currentDialog.GetPlayerChildren(currentNode));
         }
 
         public void SelectChoice(DialogNode chosenNode)
@@ -97,7 +98,7 @@ namespace DialogEngine
 
         public void Next()
         {
-            int numPlayerResponses = currentDialog.GetPlayerChildren(currentNode).Count();
+            int numPlayerResponses = FilterOnCondition(currentDialog.GetPlayerChildren(currentNode)).Count();
             if(numPlayerResponses > 0)
             {
                 isChoosing = true;
@@ -106,7 +107,7 @@ namespace DialogEngine
                 return;
             }
 
-            DialogNode[] children = currentDialog.GetAIChildren(currentNode).ToArray();
+            DialogNode[] children = FilterOnCondition(currentDialog.GetAIChildren(currentNode)).ToArray();
             int randomIndex = UnityEngine.Random.Range(0, children.Length);
             TriggerExitActions();
             currentNode= children[randomIndex];
@@ -115,7 +116,23 @@ namespace DialogEngine
         }
         public bool HasNext()
         {
-            return currentDialog.GetAllChildren(currentNode).Count()>0;
+            return FilterOnCondition(currentDialog.GetAllChildren(currentNode)).Count()>0;
+        }
+
+        private IEnumerable<DialogNode> FilterOnCondition(IEnumerable<DialogNode> inputNode)
+        {
+            foreach(var node in inputNode)
+            {
+                if(node.CheckCondition(GetEvaluators()))
+                {
+                    yield return node;
+                }
+            }
+
+        }
+        private IEnumerable<IPredicateEvaluator> GetEvaluators()
+        {
+            return GetComponents<IPredicateEvaluator>();
         }
 
         private void TriggerEnterActions()
@@ -135,10 +152,11 @@ namespace DialogEngine
 
         private void TriggerAction(string action)
         {
-            if(currentNode.OnEnterAction()!=""){return;}
+            if(currentNode.OnEnterAction()==""){return;}
             foreach(Dialog_Trigger trigger in ai_Conversant.GetComponents<Dialog_Trigger>())
             {
-                Debug.Log(action); //trigger.Trigger(action);
+                Debug.Log(action);
+                trigger.Trigger(action);
             }
 
         }

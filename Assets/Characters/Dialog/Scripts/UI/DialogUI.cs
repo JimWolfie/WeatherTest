@@ -55,17 +55,19 @@ namespace ui
 
         private void BuildChoiceList()
         {
+            
             foreach(Transform choice in choiceRoot)
             {
                 Destroy(choice.gameObject);
             }
+            //choiceRoot.DetachChildren();
 
             foreach(DialogNode choice in playerConversant.GetChoices())
             {
                 GameObject choiceInstance = Instantiate(choicePrefab, choiceRoot);
                 var textComp = choiceInstance.GetComponentInChildren<TextMeshProUGUI>();
                 textComp.text = choice.GetText();
-                Button button = GetComponentInChildren<Button>();
+                Button button = choiceInstance.GetComponentInChildren<Button>();
                 button.onClick.AddListener(()=>
                 {
                     playerConversant.SelectChoice(choice);

@@ -265,7 +265,8 @@ MonoBehaviour:
   nextButton: {fileID: 1875607777135272418}
   AI_Response: {fileID: 2221974691228577120}
   choiceRoot: {fileID: 4791288164268419831}
-  choicePrefab: {fileID: 966376814386274760}
+  choicePrefab: {fileID: 216440891253922184, guid: c5999fe81c322c44bb67214d9bcf57f1,
+    type: 3}
   quitButton: {fileID: 5628088734355224695}
   conversantName: {fileID: 271571850048150150}
 --- !u!1 &3573082152811456967
@@ -1259,12 +1260,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5999fe81c322c44bb67214d9bcf57f1, type: 3}
---- !u!1 &966376814386274760 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 216440891253922184, guid: c5999fe81c322c44bb67214d9bcf57f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1038556144943364160}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &945922970138415840 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 236762933871143584, guid: c5999fe81c322c44bb67214d9bcf57f1,
