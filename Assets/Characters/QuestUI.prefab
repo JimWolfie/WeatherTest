@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toggleKey: 113
-  uiContainer: {fileID: 7324052040591347429}
+  uiContainer: {fileID: 1855815362618267079}
 --- !u!1 &1855815362618267079
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd86ac5806b06d459ea78cfb7aa55b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempQuest: []
   questPrefab: {fileID: 3253909113431862872, guid: c204979083f099c4db999bb3a9c55f63,
     type: 3}
 --- !u!1 &3376295106440495676
@@ -1006,7 +1005,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 538851926357592464}
   m_HandleRect: {fileID: 71764018337671023}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.63920665
   m_NumberOfSteps: 0
   m_OnValueChanged:
